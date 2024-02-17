@@ -15,7 +15,7 @@ on:
 
 jobs:
   build-and-push:
-    uses: .github/workflows/docker-build-and-push.yml@main
+    uses: kelyaenn/selme.se/.github/workflows/docker-build-and-push.yml@main
     with:
       name: ${{ github.repository }}
     secrets: 
