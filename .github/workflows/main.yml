@@ -1,0 +1,23 @@
+name: Main pipeline
+run-name: ${{ github.event.commits[0].message }}
+
+  
+on:
+  push:
+    branches:
+      - main
+      - features/**
+      - dependabot/**
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-push:
+    uses: Electric-Widget/reusable_workflows/.github/workflows/docker-build-and-push.yml@main
+    with:
+      name: ${{ github.repository }}
+    secrets: 
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

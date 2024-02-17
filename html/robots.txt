@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /css
+Disallow: /js
+Disallow: /img
+Disallow: /php
+Disallow: /event
+Sitemap: https://kelyanselme.fr/sitemap.xml

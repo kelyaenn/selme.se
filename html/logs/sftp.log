@@ -1,0 +1,1286 @@
+Dec  2 10:27:32 10.71.56.0 u110789931 Connection from 10.71.56.0 port 14244 on 82.165.87.185 port 22 rdomain ""
+Dec  2 10:27:33 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 14244 ssh2
+Dec  2 10:27:33 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 14244:11: disconnected by user
+Dec  2 10:27:34 10.71.56.0 u110789931 Connection from 10.71.56.0 port 28018 on 82.165.87.185 port 22 rdomain ""
+Dec  2 10:27:34 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 28018 ssh2
+Dec  2 10:27:34 10.71.56.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.56.0 port 28018 id 0
+Dec  2 10:27:34 10.71.56.0 u110789931 session opened for local user u110789931 from [10.71.56.0]
+Dec  2 10:27:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:35 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" bytes read 0 written 15860
+Dec  2 10:27:35 10.71.56.0 u110789931 [10.71.56.0|put|0|15860|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f33726470617274796c6963656e7365732e747874|]
+Dec  2 10:27:35 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  2 10:27:35 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|17|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  2 10:27:35 10.71.56.0 u110789931 sent status Failure
+Dec  2 10:27:35 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/pv.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:35 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/pv.svg" bytes read 0 written 489
+Dec  2 10:27:35 10.71.56.0 u110789931 [10.71.56.0|put|0|489|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f70762e737667|]
+Dec  2 10:27:36 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/degats.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:36 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/degats.svg" bytes read 0 written 566
+Dec  2 10:27:36 10.71.56.0 u110789931 [10.71.56.0|put|0|566|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6465676174732e737667|]
+Dec  2 10:27:36 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/hero.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:37 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/hero.png" bytes read 0 written 1143433
+Dec  2 10:27:37 10.71.56.0 u110789931 [10.71.56.0|put|1|1143433|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f2e706e67|]
+Dec  2 10:27:37 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/attaque.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:37 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/attaque.svg" bytes read 0 written 577
+Dec  2 10:27:37 10.71.56.0 u110789931 [10.71.56.0|put|0|577|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f617474617175652e737667|]
+Dec  2 10:27:37 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/esquive.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:37 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/esquive.svg" bytes read 0 written 457
+Dec  2 10:27:37 10.71.56.0 u110789931 [10.71.56.0|put|0|457|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f657371756976652e737667|]
+Dec  2 10:27:37 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  2 10:27:37 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  2 10:27:37 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/favicon.ico" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:37 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/favicon.ico" bytes read 0 written 948
+Dec  2 10:27:37 10.71.56.0 u110789931 [10.71.56.0|put|0|948|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f66617669636f6e2e69636f|]
+Dec  2 10:27:38 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/index.html" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:38 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/index.html" bytes read 0 written 19234
+Dec  2 10:27:38 10.71.56.0 u110789931 [10.71.56.0|put|0|19234|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f696e6465782e68746d6c|]
+Dec  2 10:27:38 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/main.d9a2a04d01db1d70.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:38 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/main.d9a2a04d01db1d70.js" bytes read 0 written 1126913
+Dec  2 10:27:38 10.71.56.0 u110789931 [10.71.56.0|put|0|1126913|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f6d61696e2e643961326130346430316462316437302e6a73|]
+Dec  2 10:27:38 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:38 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" bytes read 0 written 33859
+Dec  2 10:27:38 10.71.56.0 u110789931 [10.71.56.0|put|0|33859|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f706f6c7966696c6c732e323636376666643835373135376365652e6a73|]
+Dec  2 10:27:39 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:39 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" bytes read 0 written 936
+Dec  2 10:27:39 10.71.56.0 u110789931 [10.71.56.0|put|0|936|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f72756e74696d652e313965663930336230393537346163612e6a73|]
+Dec  2 10:27:39 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  2 10:27:39 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" bytes read 0 written 68830
+Dec  2 10:27:39 10.71.56.0 u110789931 [10.71.56.0|put|0|68830|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f7374796c65732e653538636632333961633632643662642e637373|]
+Dec  2 10:27:39 10.71.56.0 u110789931 session closed for local user u110789931 from [10.71.56.0]
+Dec  2 10:27:39 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 28018:11: disconnected by user
+Dec  4 21:49:13 10.71.57.0 u110789931 Connection from 10.71.57.0 port 50270 on 82.165.87.185 port 22 rdomain ""
+Dec  4 21:49:13 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 50270 ssh2
+Dec  4 21:49:14 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 50270 id 0
+Dec  4 21:49:14 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  4 21:49:17 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 50270
+Dec  4 21:49:17 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  4 22:28:36 10.71.56.0 u110789931 Connection from 10.71.56.0 port 46436 on 82.165.87.185 port 22 rdomain ""
+Dec  4 22:28:37 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 46436 ssh2
+Dec  4 22:28:37 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 46436:11: disconnected by user
+Dec  4 22:28:38 10.71.56.0 u110789931 Connection from 10.71.56.0 port 52320 on 82.165.87.185 port 22 rdomain ""
+Dec  4 22:28:39 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 52320 ssh2
+Dec  4 22:28:39 10.71.56.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.56.0 port 52320 id 0
+Dec  4 22:28:39 10.71.56.0 u110789931 session opened for local user u110789931 from [10.71.56.0]
+Dec  4 22:28:39 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:40 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" bytes read 0 written 15860
+Dec  4 22:28:40 10.71.56.0 u110789931 [10.71.56.0|put|1|15860|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f33726470617274796c6963656e7365732e747874|]
+Dec  4 22:28:40 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  4 22:28:40 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|17|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  4 22:28:40 10.71.56.0 u110789931 sent status Failure
+Dec  4 22:28:40 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/pv.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:40 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/pv.svg" bytes read 0 written 489
+Dec  4 22:28:40 10.71.56.0 u110789931 [10.71.56.0|put|0|489|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f70762e737667|]
+Dec  4 22:28:41 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets/heroes" mode 0755
+Dec  4 22:28:41 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f6573|]
+Dec  4 22:28:41 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/lokki.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:42 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/lokki.png" bytes read 0 written 447055
+Dec  4 22:28:42 10.71.56.0 u110789931 [10.71.56.0|put|1|447055|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f6c6f6b6b692e706e67|]
+Dec  4 22:28:42 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/ironman.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:42 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/ironman.png" bytes read 0 written 1143433
+Dec  4 22:28:42 10.71.56.0 u110789931 [10.71.56.0|put|0|1143433|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f69726f6e6d616e2e706e67|]
+Dec  4 22:28:42 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:43 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" bytes read 0 written 657960
+Dec  4 22:28:43 10.71.56.0 u110789931 [10.71.56.0|put|1|657960|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f7370696465726d616e2e706e67|]
+Dec  4 22:28:43 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets/heroes" mode 0755
+Dec  4 22:28:43 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f6573|]
+Dec  4 22:28:43 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/degats.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:43 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/degats.svg" bytes read 0 written 566
+Dec  4 22:28:43 10.71.56.0 u110789931 [10.71.56.0|put|0|566|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6465676174732e737667|]
+Dec  4 22:28:43 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/attaque.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:44 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/attaque.svg" bytes read 0 written 577
+Dec  4 22:28:44 10.71.56.0 u110789931 [10.71.56.0|put|1|577|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f617474617175652e737667|]
+Dec  4 22:28:44 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/esquive.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:44 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/esquive.svg" bytes read 0 written 457
+Dec  4 22:28:44 10.71.56.0 u110789931 [10.71.56.0|put|0|457|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f657371756976652e737667|]
+Dec  4 22:28:44 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  4 22:28:44 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  4 22:28:44 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/favicon.ico" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:44 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/favicon.ico" bytes read 0 written 948
+Dec  4 22:28:44 10.71.56.0 u110789931 [10.71.56.0|put|0|948|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f66617669636f6e2e69636f|]
+Dec  4 22:28:44 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/index.html" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:45 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/index.html" bytes read 0 written 19234
+Dec  4 22:28:45 10.71.56.0 u110789931 [10.71.56.0|put|0|19234|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f696e6465782e68746d6c|]
+Dec  4 22:28:45 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/main.ce1ed1502d0f0667.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:45 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/main.ce1ed1502d0f0667.js" bytes read 0 written 1131073
+Dec  4 22:28:45 10.71.56.0 u110789931 [10.71.56.0|put|0|1131073|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f6d61696e2e636531656431353032643066303636372e6a73|]
+Dec  4 22:28:45 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:46 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" bytes read 0 written 33859
+Dec  4 22:28:46 10.71.56.0 u110789931 [10.71.56.0|put|1|33859|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f706f6c7966696c6c732e323636376666643835373135376365652e6a73|]
+Dec  4 22:28:46 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:46 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" bytes read 0 written 936
+Dec  4 22:28:46 10.71.56.0 u110789931 [10.71.56.0|put|0|936|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f72756e74696d652e313965663930336230393537346163612e6a73|]
+Dec  4 22:28:46 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  4 22:28:47 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" bytes read 0 written 68830
+Dec  4 22:28:47 10.71.56.0 u110789931 [10.71.56.0|put|1|68830|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f7374796c65732e653538636632333961633632643662642e637373|]
+Dec  4 22:28:47 10.71.56.0 u110789931 session closed for local user u110789931 from [10.71.56.0]
+Dec  4 22:28:47 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 52320:11: disconnected by user
+Dec  4 23:07:35 10.71.57.0 u110789931 Connection from 10.71.57.0 port 14302 on 82.165.87.185 port 22 rdomain ""
+Dec  4 23:07:36 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 14302 ssh2
+Dec  4 23:07:36 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 14302 id 0
+Dec  4 23:07:36 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  4 23:07:51 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 14302
+Dec  4 23:07:51 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  5 09:07:00 10.71.57.0 u110789931 Connection from 10.71.57.0 port 57098 on 82.165.87.185 port 22 rdomain ""
+Dec  5 09:07:00 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 57098 ssh2
+Dec  5 09:07:00 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 57098 id 0
+Dec  5 09:07:00 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  5 09:07:08 10.71.57.0 u110789931 mkdir name "/electric_map" mode 0777
+Dec  5 09:07:08 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d6170|]
+Dec  5 09:07:27 10.71.57.0 u110789931 Connection from 10.71.57.0 port 57210 on 82.165.87.185 port 22 rdomain ""
+Dec  5 09:07:27 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 57210 ssh2
+Dec  5 09:07:27 10.71.57.0 u110789931 Connection from 10.71.57.0 port 57212 on 82.165.87.185 port 22 rdomain ""
+Dec  5 09:07:27 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 57212 ssh2
+Dec  5 09:07:27 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 57210 id 0
+Dec  5 09:07:27 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 57212 id 0
+Dec  5 09:07:27 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  5 09:07:27 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  5 09:07:27 10.71.57.0 u110789931 open "/electric_map/favicon.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:27 10.71.57.0 u110789931 close "/electric_map/favicon.png" bytes read 0 written 917
+Dec  5 09:07:27 10.71.57.0 u110789931 [10.71.57.0|put|0|917|0|0|0|2f656c6563747269635f6d61702f66617669636f6e2e706e67|]
+Dec  5 09:07:27 10.71.57.0 u110789931 open "/electric_map/flutter_service_worker.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/flutter.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/flutter_service_worker.js" bytes read 0 written 7744
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|1|7744|0|0|0|2f656c6563747269635f6d61702f666c75747465725f736572766963655f776f726b65722e6a73|]
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/flutter.js" bytes read 0 written 14326
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|14326|0|0|0|2f656c6563747269635f6d61702f666c75747465722e6a73|]
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/main.dart.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/index.html" bytes read 0 written 1830
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|1830|0|0|0|2f656c6563747269635f6d61702f696e6465782e68746d6c|]
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/manifest.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/manifest.json" bytes read 0 written 920
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|920|0|0|0|2f656c6563747269635f6d61702f6d616e69666573742e6a736f6e|]
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/version.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/version.json" bytes read 0 written 75
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|75|0|0|0|2f656c6563747269635f6d61702f76657273696f6e2e6a736f6e|]
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/main.dart.js" bytes read 0 written 1474550
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|1474550|0|0|0|2f656c6563747269635f6d61702f6d61696e2e646172742e6a73|]
+Dec  5 09:07:28 10.71.57.0 u110789931 sent status No such file
+Dec  5 09:07:28 10.71.57.0 u110789931 mkdir name "/electric_map/assets" mode 0777
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d61702f617373657473|]
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/assets/AssetManifest.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/assets/NOTICES" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/assets/AssetManifest.json" bytes read 0 written 2
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|2|0|0|0|2f656c6563747269635f6d61702f6173736574732f41737365744d616e69666573742e6a736f6e|]
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/assets/FontManifest.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/assets/FontManifest.json" bytes read 0 written 82
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|82|0|0|0|2f656c6563747269635f6d61702f6173736574732f466f6e744d616e69666573742e6a736f6e|]
+Dec  5 09:07:28 10.71.57.0 u110789931 close "/electric_map/assets/NOTICES" bytes read 0 written 1672064
+Dec  5 09:07:28 10.71.57.0 u110789931 [10.71.57.0|put|0|1672064|0|0|0|2f656c6563747269635f6d61702f6173736574732f4e4f5449434553|]
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/assets/AssetManifest.bin.json" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:28 10.71.57.0 u110789931 open "/electric_map/assets/AssetManifest.bin" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:29 10.71.57.0 u110789931 close "/electric_map/assets/AssetManifest.bin.json" bytes read 0 written 6
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|put|1|6|0|0|0|2f656c6563747269635f6d61702f6173736574732f41737365744d616e69666573742e62696e2e6a736f6e|]
+Dec  5 09:07:29 10.71.57.0 u110789931 close "/electric_map/assets/AssetManifest.bin" bytes read 0 written 2
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|put|1|2|0|0|0|2f656c6563747269635f6d61702f6173736574732f41737365744d616e69666573742e62696e|]
+Dec  5 09:07:29 10.71.57.0 u110789931 sent status No such file
+Dec  5 09:07:29 10.71.57.0 u110789931 sent status No such file
+Dec  5 09:07:29 10.71.57.0 u110789931 mkdir name "/electric_map/assets/shaders" mode 0777
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d61702f6173736574732f73686164657273|]
+Dec  5 09:07:29 10.71.57.0 u110789931 mkdir name "/electric_map/assets/fonts" mode 0777
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d61702f6173736574732f666f6e7473|]
+Dec  5 09:07:29 10.71.57.0 u110789931 open "/electric_map/assets/shaders/ink_sparkle.frag" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:29 10.71.57.0 u110789931 open "/electric_map/assets/fonts/MaterialIcons-Regular.otf" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:29 10.71.57.0 u110789931 close "/electric_map/assets/shaders/ink_sparkle.frag" bytes read 0 written 8584
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|put|0|8584|0|0|0|2f656c6563747269635f6d61702f6173736574732f736861646572732f696e6b5f737061726b6c652e66726167|]
+Dec  5 09:07:29 10.71.57.0 u110789931 close "/electric_map/assets/fonts/MaterialIcons-Regular.otf" bytes read 0 written 7968
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|put|0|7968|0|0|0|2f656c6563747269635f6d61702f6173736574732f666f6e74732f4d6174657269616c49636f6e732d526567756c61722e6f7466|]
+Dec  5 09:07:29 10.71.57.0 u110789931 sent status No such file
+Dec  5 09:07:29 10.71.57.0 u110789931 mkdir name "/electric_map/canvaskit" mode 0777
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d61702f63616e7661736b6974|]
+Dec  5 09:07:29 10.71.57.0 u110789931 open "/electric_map/canvaskit/skwasm.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:29 10.71.57.0 u110789931 open "/electric_map/canvaskit/skwasm.wasm" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:29 10.71.57.0 u110789931 close "/electric_map/canvaskit/skwasm.js" bytes read 0 written 68508
+Dec  5 09:07:29 10.71.57.0 u110789931 [10.71.57.0|put|0|68508|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f736b7761736d2e6a73|]
+Dec  5 09:07:30 10.71.57.0 u110789931 open "/electric_map/canvaskit/canvaskit.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:30 10.71.57.0 u110789931 close "/electric_map/canvaskit/canvaskit.js" bytes read 0 written 93417
+Dec  5 09:07:30 10.71.57.0 u110789931 [10.71.57.0|put|0|93417|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f63616e7661736b69742e6a73|]
+Dec  5 09:07:30 10.71.57.0 u110789931 open "/electric_map/canvaskit/canvaskit.wasm" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:30 10.71.57.0 u110789931 close "/electric_map/canvaskit/skwasm.wasm" bytes read 0 written 3146046
+Dec  5 09:07:30 10.71.57.0 u110789931 [10.71.57.0|put|1|3146046|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f736b7761736d2e7761736d|]
+Dec  5 09:07:30 10.71.57.0 u110789931 open "/electric_map/canvaskit/skwasm.worker.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:30 10.71.57.0 u110789931 close "/electric_map/canvaskit/skwasm.worker.js" bytes read 0 written 2916
+Dec  5 09:07:30 10.71.57.0 u110789931 [10.71.57.0|put|0|2916|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f736b7761736d2e776f726b65722e6a73|]
+Dec  5 09:07:30 10.71.57.0 u110789931 sent status No such file
+Dec  5 09:07:30 10.71.57.0 u110789931 mkdir name "/electric_map/canvaskit/chromium" mode 0777
+Dec  5 09:07:30 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f6368726f6d69756d|]
+Dec  5 09:07:30 10.71.57.0 u110789931 open "/electric_map/canvaskit/chromium/canvaskit.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:30 10.71.57.0 u110789931 close "/electric_map/canvaskit/canvaskit.wasm" bytes read 0 written 6631345
+Dec  5 09:07:30 10.71.57.0 u110789931 [10.71.57.0|put|0|6631345|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f63616e7661736b69742e7761736d|]
+Dec  5 09:07:30 10.71.57.0 u110789931 close "/electric_map/canvaskit/chromium/canvaskit.js" bytes read 0 written 93109
+Dec  5 09:07:30 10.71.57.0 u110789931 [10.71.57.0|put|0|93109|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f6368726f6d69756d2f63616e7661736b69742e6a73|]
+Dec  5 09:07:30 10.71.57.0 u110789931 sent status No such file
+Dec  5 09:07:30 10.71.57.0 u110789931 open "/electric_map/canvaskit/chromium/canvaskit.wasm" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:31 10.71.57.0 u110789931 mkdir name "/electric_map/icons" mode 0777
+Dec  5 09:07:31 10.71.57.0 u110789931 [10.71.57.0|mkdir|0|0|511|0|0|2f656c6563747269635f6d61702f69636f6e73|]
+Dec  5 09:07:31 10.71.57.0 u110789931 open "/electric_map/icons/Icon-192.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:31 10.71.57.0 u110789931 close "/electric_map/icons/Icon-192.png" bytes read 0 written 5292
+Dec  5 09:07:31 10.71.57.0 u110789931 [10.71.57.0|put|0|5292|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d3139322e706e67|]
+Dec  5 09:07:31 10.71.57.0 u110789931 open "/electric_map/icons/Icon-maskable-192.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:31 10.71.57.0 u110789931 close "/electric_map/icons/Icon-maskable-192.png" bytes read 0 written 5594
+Dec  5 09:07:31 10.71.57.0 u110789931 [10.71.57.0|put|0|5594|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d6d61736b61626c652d3139322e706e67|]
+Dec  5 09:07:31 10.71.57.0 u110789931 open "/electric_map/icons/Icon-maskable-512.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:31 10.71.57.0 u110789931 close "/electric_map/canvaskit/chromium/canvaskit.wasm" bytes read 0 written 5219313
+Dec  5 09:07:31 10.71.57.0 u110789931 [10.71.57.0|put|1|5219313|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f6368726f6d69756d2f63616e7661736b69742e7761736d|]
+Dec  5 09:07:31 10.71.57.0 u110789931 close "/electric_map/icons/Icon-maskable-512.png" bytes read 0 written 20998
+Dec  5 09:07:31 10.71.57.0 u110789931 [10.71.57.0|put|0|20998|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d6d61736b61626c652d3531322e706e67|]
+Dec  5 09:07:31 10.71.57.0 u110789931 open "/electric_map/icons/Icon-512.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  5 09:07:31 10.71.57.0 u110789931 close "/electric_map/icons/Icon-512.png" bytes read 0 written 8252
+Dec  5 09:07:31 10.71.57.0 u110789931 [10.71.57.0|put|0|8252|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d3531322e706e67|]
+Dec  5 09:08:05 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 57210
+Dec  5 09:08:05 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  5 09:08:05 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 57212
+Dec  5 09:08:05 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  5 09:08:05 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 57098
+Dec  5 09:08:05 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  6 14:30:08 10.71.57.0 u110789931 Connection from 10.71.57.0 port 36946 on 82.165.87.185 port 22 rdomain ""
+Dec  6 14:30:11 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 36946 ssh2
+Dec  6 14:30:13 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 36946 id 0
+Dec  6 14:30:13 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  6 14:31:06 10.71.57.0 u110789931 Connection from 10.71.57.0 port 37068 on 82.165.87.185 port 22 rdomain ""
+Dec  6 14:31:10 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 37068 ssh2
+Dec  6 14:31:10 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 37068 id 0
+Dec  6 14:31:10 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec  6 14:31:12 10.71.57.0 u110789931 open "/img/reals/myrenault/lockscreendual.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  6 14:31:40 10.71.57.0 u110789931 close "/img/reals/myrenault/lockscreendual.png" bytes read 0 written 2958730
+Dec  6 14:31:40 10.71.57.0 u110789931 [10.71.57.0|put|28|2958730|0|0|0|2f696d672f7265616c732f6d7972656e61756c742f6c6f636b73637265656e6475616c2e706e67|]
+Dec  6 14:31:58 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 37068
+Dec  6 14:31:58 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  6 14:31:58 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 36946
+Dec  6 14:31:58 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec  6 20:48:29 10.71.56.0 u110789931 Connection from 10.71.56.0 port 36080 on 82.165.87.185 port 22 rdomain ""
+Dec  6 20:48:29 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 36080 ssh2
+Dec  6 20:48:30 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 36080:11: disconnected by user
+Dec  6 20:48:30 10.71.56.0 u110789931 Connection from 10.71.56.0 port 35856 on 82.165.87.185 port 22 rdomain ""
+Dec  6 20:48:31 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 35856 ssh2
+Dec  6 20:48:31 10.71.56.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.56.0 port 35856 id 0
+Dec  6 20:48:31 10.71.56.0 u110789931 session opened for local user u110789931 from [10.71.56.0]
+Dec  6 20:48:31 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:31 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" bytes read 0 written 15860
+Dec  6 20:48:31 10.71.56.0 u110789931 [10.71.56.0|put|0|15860|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f33726470617274796c6963656e7365732e747874|]
+Dec  6 20:48:32 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  6 20:48:32 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|17|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  6 20:48:32 10.71.56.0 u110789931 sent status Failure
+Dec  6 20:48:32 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/pv.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:32 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/pv.svg" bytes read 0 written 489
+Dec  6 20:48:32 10.71.56.0 u110789931 [10.71.56.0|put|0|489|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f70762e737667|]
+Dec  6 20:48:32 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets/heroes" mode 0755
+Dec  6 20:48:32 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|17|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f6573|]
+Dec  6 20:48:32 10.71.56.0 u110789931 sent status Failure
+Dec  6 20:48:32 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/lokki.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:33 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/lokki.png" bytes read 0 written 447055
+Dec  6 20:48:33 10.71.56.0 u110789931 [10.71.56.0|put|1|447055|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f6c6f6b6b692e706e67|]
+Dec  6 20:48:33 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/ironman.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:33 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/ironman.png" bytes read 0 written 1143433
+Dec  6 20:48:33 10.71.56.0 u110789931 [10.71.56.0|put|0|1143433|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f69726f6e6d616e2e706e67|]
+Dec  6 20:48:33 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:34 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" bytes read 0 written 657960
+Dec  6 20:48:34 10.71.56.0 u110789931 [10.71.56.0|put|1|657960|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f7370696465726d616e2e706e67|]
+Dec  6 20:48:34 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets/heroes" mode 0755
+Dec  6 20:48:34 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f6573|]
+Dec  6 20:48:34 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/degats.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:34 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/degats.svg" bytes read 0 written 566
+Dec  6 20:48:34 10.71.56.0 u110789931 [10.71.56.0|put|0|566|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6465676174732e737667|]
+Dec  6 20:48:34 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/attaque.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:34 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/attaque.svg" bytes read 0 written 577
+Dec  6 20:48:34 10.71.56.0 u110789931 [10.71.56.0|put|0|577|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f617474617175652e737667|]
+Dec  6 20:48:34 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/esquive.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:35 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/esquive.svg" bytes read 0 written 457
+Dec  6 20:48:35 10.71.56.0 u110789931 [10.71.56.0|put|1|457|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f657371756976652e737667|]
+Dec  6 20:48:35 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  6 20:48:35 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  6 20:48:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/favicon.ico" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:35 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/favicon.ico" bytes read 0 written 948
+Dec  6 20:48:35 10.71.56.0 u110789931 [10.71.56.0|put|0|948|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f66617669636f6e2e69636f|]
+Dec  6 20:48:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/index.html" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:35 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/index.html" bytes read 0 written 19234
+Dec  6 20:48:35 10.71.56.0 u110789931 [10.71.56.0|put|0|19234|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f696e6465782e68746d6c|]
+Dec  6 20:48:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/main.e1392cde803c43c9.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:36 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/main.e1392cde803c43c9.js" bytes read 0 written 1131059
+Dec  6 20:48:36 10.71.56.0 u110789931 [10.71.56.0|put|1|1131059|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f6d61696e2e653133393263646538303363343363392e6a73|]
+Dec  6 20:48:36 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:36 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" bytes read 0 written 33859
+Dec  6 20:48:36 10.71.56.0 u110789931 [10.71.56.0|put|0|33859|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f706f6c7966696c6c732e323636376666643835373135376365652e6a73|]
+Dec  6 20:48:36 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:36 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" bytes read 0 written 936
+Dec  6 20:48:36 10.71.56.0 u110789931 [10.71.56.0|put|0|936|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f72756e74696d652e313965663930336230393537346163612e6a73|]
+Dec  6 20:48:36 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 20:48:37 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" bytes read 0 written 68830
+Dec  6 20:48:37 10.71.56.0 u110789931 [10.71.56.0|put|1|68830|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f7374796c65732e653538636632333961633632643662642e637373|]
+Dec  6 20:48:37 10.71.56.0 u110789931 session closed for local user u110789931 from [10.71.56.0]
+Dec  6 20:48:37 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 35856:11: disconnected by user
+Dec  6 21:08:29 10.71.56.0 u110789931 Connection from 10.71.56.0 port 29694 on 82.165.87.185 port 22 rdomain ""
+Dec  6 21:08:29 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 29694 ssh2
+Dec  6 21:08:30 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 29694:11: disconnected by user
+Dec  6 21:08:30 10.71.56.0 u110789931 Connection from 10.71.56.0 port 50258 on 82.165.87.185 port 22 rdomain ""
+Dec  6 21:08:31 10.71.56.0 u110789931 Accepted password for u110789931 from 10.71.56.0 port 50258 ssh2
+Dec  6 21:08:31 10.71.56.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.56.0 port 50258 id 0
+Dec  6 21:08:31 10.71.56.0 u110789931 session opened for local user u110789931 from [10.71.56.0]
+Dec  6 21:08:31 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:32 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/3rdpartylicenses.txt" bytes read 0 written 15860
+Dec  6 21:08:32 10.71.56.0 u110789931 [10.71.56.0|put|1|15860|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f33726470617274796c6963656e7365732e747874|]
+Dec  6 21:08:32 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  6 21:08:32 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|17|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  6 21:08:32 10.71.56.0 u110789931 sent status Failure
+Dec  6 21:08:32 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/pv.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:32 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/pv.svg" bytes read 0 written 489
+Dec  6 21:08:32 10.71.56.0 u110789931 [10.71.56.0|put|0|489|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f70762e737667|]
+Dec  6 21:08:32 10.71.56.0 u110789931 mkdir name "/IUT2/tour-of-heroes/assets/heroes" mode 0755
+Dec  6 21:08:32 10.71.56.0 u110789931 [10.71.56.0|mkdir|0|0|493|0|17|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f6573|]
+Dec  6 21:08:32 10.71.56.0 u110789931 sent status Failure
+Dec  6 21:08:32 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/lokki.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:33 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/lokki.png" bytes read 0 written 447055
+Dec  6 21:08:33 10.71.56.0 u110789931 [10.71.56.0|put|1|447055|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f6c6f6b6b692e706e67|]
+Dec  6 21:08:33 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/ironman.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:33 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/ironman.png" bytes read 0 written 1143433
+Dec  6 21:08:33 10.71.56.0 u110789931 [10.71.56.0|put|0|1143433|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f69726f6e6d616e2e706e67|]
+Dec  6 21:08:34 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:34 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" bytes read 0 written 657960
+Dec  6 21:08:34 10.71.56.0 u110789931 [10.71.56.0|put|0|657960|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f7370696465726d616e2e706e67|]
+Dec  6 21:08:34 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets/heroes" mode 0755
+Dec  6 21:08:34 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f6573|]
+Dec  6 21:08:34 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/degats.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:34 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/degats.svg" bytes read 0 written 566
+Dec  6 21:08:34 10.71.56.0 u110789931 [10.71.56.0|put|0|566|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6465676174732e737667|]
+Dec  6 21:08:34 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/attaque.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:34 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/attaque.svg" bytes read 0 written 577
+Dec  6 21:08:34 10.71.56.0 u110789931 [10.71.56.0|put|0|577|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f617474617175652e737667|]
+Dec  6 21:08:35 10.71.56.0 u110789931 open "/IUT2/tour-of-heroes/assets/esquive.svg" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:35 10.71.56.0 u110789931 close "/IUT2/tour-of-heroes/assets/esquive.svg" bytes read 0 written 457
+Dec  6 21:08:35 10.71.56.0 u110789931 [10.71.56.0|put|0|457|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f657371756976652e737667|]
+Dec  6 21:08:35 10.71.56.0 u110789931 set "/IUT2/tour-of-heroes/assets" mode 0755
+Dec  6 21:08:35 10.71.56.0 u110789931 [10.71.56.0|chmod|0|0|493|0|0|2f495554322f746f75722d6f662d6865726f65732f617373657473|]
+Dec  6 21:08:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/favicon.ico" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:35 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/favicon.ico" bytes read 0 written 948
+Dec  6 21:08:35 10.71.56.0 u110789931 [10.71.56.0|put|0|948|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f66617669636f6e2e69636f|]
+Dec  6 21:08:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/index.html" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:35 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/index.html" bytes read 0 written 19234
+Dec  6 21:08:35 10.71.56.0 u110789931 [10.71.56.0|put|0|19234|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f696e6465782e68746d6c|]
+Dec  6 21:08:35 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/main.e1392cde803c43c9.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:36 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/main.e1392cde803c43c9.js" bytes read 0 written 1131059
+Dec  6 21:08:36 10.71.56.0 u110789931 [10.71.56.0|put|1|1131059|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f6d61696e2e653133393263646538303363343363392e6a73|]
+Dec  6 21:08:36 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:36 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" bytes read 0 written 33859
+Dec  6 21:08:36 10.71.56.0 u110789931 [10.71.56.0|put|0|33859|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f706f6c7966696c6c732e323636376666643835373135376365652e6a73|]
+Dec  6 21:08:36 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:36 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" bytes read 0 written 936
+Dec  6 21:08:36 10.71.56.0 u110789931 [10.71.56.0|put|0|936|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f72756e74696d652e313965663930336230393537346163612e6a73|]
+Dec  6 21:08:36 10.71.56.0 u110789931 open "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" flags WRITE,CREATE,TRUNCATE mode 0644
+Dec  6 21:08:37 10.71.56.0 u110789931 close "/./IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" bytes read 0 written 68830
+Dec  6 21:08:37 10.71.56.0 u110789931 [10.71.56.0|put|1|68830|0|0|0|2f2e2f495554322f746f75722d6f662d6865726f65732f7374796c65732e653538636632333961633632643662642e637373|]
+Dec  6 21:08:37 10.71.56.0 u110789931 session closed for local user u110789931 from [10.71.56.0]
+Dec  6 21:08:37 10.71.56.0 u110789931 Received disconnect from 10.71.56.0 port 50258:11: disconnected by user
+Dec 15 00:08:12 10.71.57.0 u110789931 Connection from 10.71.57.0 port 21806 on 82.165.87.185 port 22 rdomain ""
+Dec 15 00:08:12 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 21806 ssh2
+Dec 15 00:08:12 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 21806 id 0
+Dec 15 00:08:12 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec 15 00:08:22 10.71.57.0 u110789931 Connection from 10.71.57.0 port 21938 on 82.165.87.185 port 22 rdomain ""
+Dec 15 00:08:23 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 21938 ssh2
+Dec 15 00:08:23 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 21938 id 0
+Dec 15 00:08:23 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Dec 15 00:08:23 10.71.57.0 u110789931 open "/index.html" flags READ mode 0666
+Dec 15 00:08:23 10.71.57.0 u110789931 close "/index.html" bytes read 19573 written 0
+Dec 15 00:08:23 10.71.57.0 u110789931 [10.71.57.0|get|0|19573|0|0|0|2f696e6465782e68746d6c|]
+Dec 15 00:09:16 10.71.57.0 u110789931 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 15 00:09:17 10.71.57.0 u110789931 close "/index.html" bytes read 0 written 19871
+Dec 15 00:09:17 10.71.57.0 u110789931 [10.71.57.0|put|1|19871|0|0|0|2f696e6465782e68746d6c|]
+Dec 15 00:10:17 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Dec 15 00:10:17 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 21938
+Dec 15 00:14:31 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 21806
+Dec 15 00:14:31 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Jan  8 20:33:53 10.71.57.0 u110789931 Connection from 10.71.57.0 port 29158 on 82.165.87.185 port 22 rdomain ""
+Jan  8 20:33:53 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 29158 ssh2
+Jan  8 20:33:53 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 29158 id 0
+Jan  8 20:33:53 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan  8 20:33:58 10.71.57.0 u110789931 Connection from 10.71.57.0 port 29164 on 82.165.87.185 port 22 rdomain ""
+Jan  8 20:33:58 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 29164 ssh2
+Jan  8 20:33:58 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 29164 id 0
+Jan  8 20:33:58 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan  8 20:33:58 10.71.57.0 u110789931 open "/app-release.apk" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan  8 20:34:15 10.71.57.0 u110789931 close "/app-release.apk" bytes read 0 written 112585557
+Jan  8 20:34:15 10.71.57.0 u110789931 [10.71.57.0|put|17|112585557|0|0|0|2f6170702d72656c656173652e61706b|]
+Jan  8 20:35:11 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 29164
+Jan  8 20:35:11 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Jan  8 20:35:11 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 29158
+Jan  8 20:35:11 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Jan 10 23:31:43 10.71.57.0 u110789931 Connection from 10.71.57.0 port 10590 on 82.165.87.185 port 22 rdomain ""
+Jan 10 23:31:43 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 10590 ssh2
+Jan 10 23:31:43 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 10590 id 0
+Jan 10 23:31:43 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan 10 23:31:50 10.71.57.0 u110789931 remove name "/electricwidget.apk"
+Jan 10 23:31:50 10.71.57.0 u110789931 [10.71.57.0|rm|0|0|0|0|0|2f656c6563747269637769646765742e61706b|]
+Jan 10 23:31:52 10.71.57.0 u110789931 Connection from 10.71.57.0 port 10634 on 82.165.87.185 port 22 rdomain ""
+Jan 10 23:31:52 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 10634 ssh2
+Jan 10 23:31:52 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 10634 id 0
+Jan 10 23:31:52 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan 10 23:31:53 10.71.57.0 u110789931 open "/electricwidget.apk" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 10 23:32:14 10.71.57.0 u110789931 close "/electricwidget.apk" bytes read 0 written 112585557
+Jan 10 23:32:14 10.71.57.0 u110789931 [10.71.57.0|put|21|112585557|0|0|0|2f656c6563747269637769646765742e61706b|]
+Jan 10 23:33:14 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 10634
+Jan 10 23:33:14 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Jan 10 23:49:15 10.71.57.0 u110789931 Connection closed by 10.71.57.0 port 10590
+Jan 10 23:49:15 10.71.57.0 u110789931 session closed for local user u110789931 from [10.71.57.0]
+Jan 16 19:45:58 10.71.57.0 u110789931 Connection from 10.71.57.0 port 63392 on 82.165.87.185 port 22 rdomain ""
+Jan 16 19:45:58 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 63392 ssh2
+Jan 16 19:45:59 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 63392 id 0
+Jan 16 19:45:59 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan 16 20:44:31 10.71.57.0 u110789931 Connection from 10.71.57.0 port 28328 on 82.165.87.185 port 22 rdomain ""
+Jan 16 20:44:32 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 28328 ssh2
+Jan 16 20:44:31 10.71.57.0 u110789931 Connection from 10.71.57.0 port 28330 on 82.165.87.185 port 22 rdomain ""
+Jan 16 20:44:32 10.71.57.0 u110789931 Accepted password for u110789931 from 10.71.57.0 port 28330 ssh2
+Jan 16 20:44:32 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 28330 id 0
+Jan 16 20:44:32 10.71.57.0 u110789931 Starting session: subsystem 'sftp' for u110789931 from 10.71.57.0 port 28328 id 0
+Jan 16 20:44:32 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan 16 20:44:32 10.71.57.0 u110789931 session opened for local user u110789931 from [10.71.57.0]
+Jan 16 20:44:32 10.71.57.0 u110789931 open "/android-chrome-192x192.png" flags READ mode 0666
+Jan 16 20:44:32 10.71.57.0 u110789931 open "/adminer.php" flags READ mode 0666
+Jan 16 20:44:32 10.71.57.0 u110789931 close "/android-chrome-192x192.png" bytes read 1511 written 0
+Jan 16 20:44:32 10.71.57.0 u110789931 [10.71.57.0|get|0|1511|0|0|0|2f616e64726f69642d6368726f6d652d313932783139322e706e67|]
+Jan 16 20:44:33 10.71.57.0 u110789931 open "/android-chrome-384x384.png" flags READ mode 0666
+Jan 16 20:44:33 10.71.57.0 u110789931 close "/adminer.php" bytes read 476603 written 0
+Jan 16 20:44:33 10.71.57.0 u110789931 [10.71.57.0|get|1|476603|0|0|0|2f61646d696e65722e706870|]
+Jan 16 20:44:33 10.71.57.0 u110789931 close "/android-chrome-384x384.png" bytes read 3281 written 0
+Jan 16 20:44:33 10.71.57.0 u110789931 [10.71.57.0|get|0|3281|0|0|0|2f616e64726f69642d6368726f6d652d333834783338342e706e67|]
+Jan 16 20:44:35 10.71.57.0 u110789931 open "/.htaccess" flags READ mode 0666
+Jan 16 20:44:35 10.71.57.0 u110789931 close "/.htaccess" bytes read 97 written 0
+Jan 16 20:44:35 10.71.57.0 u110789931 [10.71.57.0|get|0|97|0|0|0|2f2e6874616363657373|]
+Jan 16 20:44:42 10.71.57.0 u110789931 open "/api.php" flags READ mode 0666
+Jan 16 20:44:42 10.71.57.0 u110789931 close "/api.php" bytes read 140 written 0
+Jan 16 20:44:42 10.71.57.0 u110789931 [10.71.57.0|get|0|140|0|0|0|2f6170692e706870|]
+Jan 16 20:44:42 10.71.57.0 u110789931 open "/app-release.apk" flags READ mode 0666
+Jan 16 20:44:44 10.71.57.0 u110789931 open "/android-chrome-384x384.png" flags READ mode 0666
+Jan 16 20:44:44 10.71.57.0 u110789931 close "/android-chrome-384x384.png" bytes read 3281 written 0
+Jan 16 20:44:44 10.71.57.0 u110789931 [10.71.57.0|get|0|3281|0|0|0|2f616e64726f69642d6368726f6d652d333834783338342e706e67|]
+Jan 16 20:44:44 10.71.57.0 u110789931 open "/apple-touch-icon.png" flags READ mode 0666
+Jan 16 20:44:44 10.71.57.0 u110789931 close "/apple-touch-icon.png" bytes read 1356 written 0
+Jan 16 20:44:44 10.71.57.0 u110789931 [10.71.57.0|get|0|1356|0|0|0|2f6170706c652d746f7563682d69636f6e2e706e67|]
+Jan 16 20:44:44 10.71.57.0 u110789931 open "/browserconfig.xml" flags READ mode 0666
+Jan 16 20:44:44 10.71.57.0 u110789931 close "/browserconfig.xml" bytes read 246 written 0
+Jan 16 20:44:44 10.71.57.0 u110789931 [10.71.57.0|get|0|246|0|0|0|2f62726f77736572636f6e6669672e786d6c|]
+Jan 16 20:44:45 10.71.57.0 u110789931 open "/electricwidget.apk" flags READ mode 0666
+Jan 16 20:44:47 10.71.57.0 u110789931 close "/app-release.apk" bytes read 112585557 written 0
+Jan 16 20:44:47 10.71.57.0 u110789931 [10.71.57.0|get|5|112585557|0|0|0|2f6170702d72656c656173652e61706b|]
+Jan 16 20:44:47 10.71.57.0 u110789931 open "/favicon-16x16.png" flags READ mode 0666
+Jan 16 20:44:47 10.71.57.0 u110789931 close "/favicon-16x16.png" bytes read 598 written 0
+Jan 16 20:44:47 10.71.57.0 u110789931 [10.71.57.0|get|0|598|0|0|0|2f66617669636f6e2d31367831362e706e67|]
+Jan 16 20:44:47 10.71.57.0 u110789931 open "/favicon-32x32.png" flags READ mode 0666
+Jan 16 20:44:48 10.71.57.0 u110789931 close "/favicon-32x32.png" bytes read 884 written 0
+Jan 16 20:44:48 10.71.57.0 u110789931 [10.71.57.0|get|1|884|0|0|0|2f66617669636f6e2d33327833322e706e67|]
+Jan 16 20:44:48 10.71.57.0 u110789931 open "/favicon.ico" flags READ mode 0666
+Jan 16 20:44:48 10.71.57.0 u110789931 close "/favicon.ico" bytes read 15086 written 0
+Jan 16 20:44:48 10.71.57.0 u110789931 [10.71.57.0|get|0|15086|0|0|0|2f66617669636f6e2e69636f|]
+Jan 16 20:44:48 10.71.57.0 u110789931 open "/index.html" flags READ mode 0666
+Jan 16 20:44:48 10.71.57.0 u110789931 close "/index.html" bytes read 19871 written 0
+Jan 16 20:44:48 10.71.57.0 u110789931 [10.71.57.0|get|0|19871|0|0|0|2f696e6465782e68746d6c|]
+Jan 16 20:44:49 10.71.57.0 u110789931 open "/index.html.bak" flags READ mode 0666
+Jan 16 20:44:49 10.71.57.0 u110789931 close "/index.html.bak" bytes read 3050 written 0
+Jan 16 20:44:49 10.71.57.0 u110789931 [10.71.57.0|get|0|3050|0|0|0|2f696e6465782e68746d6c2e62616b|]
+Jan 16 20:44:49 10.71.57.0 u110789931 open "/mstile-150x150.png" flags READ mode 0666
+Jan 16 20:44:49 10.71.57.0 u110789931 close "/mstile-150x150.png" bytes read 1387 written 0
+Jan 16 20:44:49 10.71.57.0 u110789931 [10.71.57.0|get|0|1387|0|0|0|2f6d7374696c652d313530783135302e706e67|]
+Jan 16 20:44:49 10.71.57.0 u110789931 open "/robots.txt" flags READ mode 0666
+Jan 16 20:44:50 10.71.57.0 u110789931 close "/robots.txt" bytes read 150 written 0
+Jan 16 20:44:50 10.71.57.0 u110789931 [10.71.57.0|get|1|150|0|0|0|2f726f626f74732e747874|]
+Jan 16 20:44:50 10.71.57.0 u110789931 close "/electricwidget.apk" bytes read 112585557 written 0
+Jan 16 20:44:50 10.71.57.0 u110789931 [10.71.57.0|get|5|112585557|0|0|0|2f656c6563747269637769646765742e61706b|]
+Jan 16 20:44:50 10.71.57.0 u110789931 open "/safari-pinned-tab.svg" flags READ mode 0666
+Jan 16 20:44:50 10.71.57.0 u110789931 open "/site.webmanifest" flags READ mode 0666
+Jan 16 20:44:50 10.71.57.0 u110789931 close "/safari-pinned-tab.svg" bytes read 1160 written 0
+Jan 16 20:44:50 10.71.57.0 u110789931 [10.71.57.0|get|0|1160|0|0|0|2f7361666172692d70696e6e65642d7461622e737667|]
+Jan 16 20:44:50 10.71.57.0 u110789931 close "/site.webmanifest" bytes read 426 written 0
+Jan 16 20:44:50 10.71.57.0 u110789931 [10.71.57.0|get|0|426|0|0|0|2f736974652e7765626d616e6966657374|]
+Jan 16 20:44:50 10.71.57.0 u110789931 open "/sitemap.xml" flags READ mode 0666
+Jan 16 20:44:50 10.71.57.0 u110789931 close "/sitemap.xml" bytes read 274 written 0
+Jan 16 20:44:50 10.71.57.0 u110789931 [10.71.57.0|get|0|274|0|0|0|2f736974656d61702e786d6c|]
+Jan 16 20:45:00 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.ce1ed1502d0f0667.js" flags READ mode 0666
+Jan 16 20:45:00 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.e1392cde803c43c9.js" flags READ mode 0666
+Jan 16 20:45:00 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.ce1ed1502d0f0667.js" bytes read 1131073 written 0
+Jan 16 20:45:00 10.71.57.0 u110789931 [10.71.57.0|get|0|1131073|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e636531656431353032643066303636372e6a73|]
+Jan 16 20:45:00 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.e1392cde803c43c9.js" bytes read 1131059 written 0
+Jan 16 20:45:00 10.71.57.0 u110789931 [10.71.57.0|get|0|1131059|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e653133393263646538303363343363392e6a73|]
+Jan 16 20:45:00 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.d9a2a04d01db1d70.js" flags READ mode 0666
+Jan 16 20:45:00 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.f050366c14d0f7e4.js" flags READ mode 0666
+Jan 16 20:45:00 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.f050366c14d0f7e4.js" bytes read 1119811 written 0
+Jan 16 20:45:00 10.71.57.0 u110789931 [10.71.57.0|get|0|1119811|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e663035303336366331346430663765342e6a73|]
+Jan 16 20:45:01 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.d9a2a04d01db1d70.js" bytes read 1126913 written 0
+Jan 16 20:45:01 10.71.57.0 u110789931 [10.71.57.0|get|1|1126913|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e643961326130346430316462316437302e6a73|]
+Jan 16 20:45:01 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.9e51b7693f827315.js" flags READ mode 0666
+Jan 16 20:45:01 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.d766fd6ca521e22e.js" flags READ mode 0666
+Jan 16 20:45:01 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.9e51b7693f827315.js" bytes read 1056904 written 0
+Jan 16 20:45:01 10.71.57.0 u110789931 [10.71.57.0|get|0|1056904|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e396535316237363933663832373331352e6a73|]
+Jan 16 20:45:01 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.0cf415cfd10fe9e1.js" flags READ mode 0666
+Jan 16 20:45:01 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.0cf415cfd10fe9e1.js" bytes read 1051160 written 0
+Jan 16 20:45:01 10.71.57.0 u110789931 [10.71.57.0|get|0|1051160|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e306366343135636664313066653965312e6a73|]
+Jan 16 20:45:01 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.d766fd6ca521e22e.js" bytes read 1053277 written 0
+Jan 16 20:45:01 10.71.57.0 u110789931 [10.71.57.0|get|0|1053277|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e643736366664366361353231653232652e6a73|]
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.a919528eb76589be.js" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.fbc0ea526a1be0fd.js" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.a919528eb76589be.js" bytes read 1048684 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|1048684|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e613931393532386562373635383962652e6a73|]
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.fbc0ea526a1be0fd.js" bytes read 1031541 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|1031541|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e666263306561353236613162653066642e6a73|]
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/styles.e58cf239ac62d6bd.css" bytes read 68830 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|68830|0|0|0|2f495554322f746f75722d6f662d6865726f65732f7374796c65732e653538636632333961633632643662642e637373|]
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/runtime.19ef903b09574aca.js" bytes read 936 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|936|0|0|0|2f495554322f746f75722d6f662d6865726f65732f72756e74696d652e313965663930336230393537346163612e6a73|]
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/main.cfb045c8dd4d2693.js" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/polyfills.2667ffd857157cee.js" bytes read 33859 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|33859|0|0|0|2f495554322f746f75722d6f662d6865726f65732f706f6c7966696c6c732e323636376666643835373135376365652e6a73|]
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/main.cfb045c8dd4d2693.js" bytes read 685628 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|685628|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6d61696e2e636662303435633864643464323639332e6a73|]
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/index.html" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/favicon.ico" flags READ mode 0666
+Jan 16 20:45:02 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/index.html" bytes read 19234 written 0
+Jan 16 20:45:02 10.71.57.0 u110789931 [10.71.57.0|get|0|19234|0|0|0|2f495554322f746f75722d6f662d6865726f65732f696e6465782e68746d6c|]
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/favicon.ico" bytes read 948 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|1|948|0|0|0|2f495554322f746f75722d6f662d6865726f65732f66617669636f6e2e69636f|]
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/3rdpartylicenses.txt" flags READ mode 0666
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/3rdpartylicenses.txt" bytes read 15860 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|0|15860|0|0|0|2f495554322f746f75722d6f662d6865726f65732f33726470617274796c6963656e7365732e747874|]
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/pv.svg" flags READ mode 0666
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/pv.svg" bytes read 489 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|0|489|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f70762e737667|]
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/esquive.svg" flags READ mode 0666
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/attaque.svg" flags READ mode 0666
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/esquive.svg" bytes read 457 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|0|457|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f657371756976652e737667|]
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/attaque.svg" bytes read 577 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|0|577|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f617474617175652e737667|]
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/degats.svg" flags READ mode 0666
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/bomb.svg" flags READ mode 0666
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/degats.svg" bytes read 566 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|0|566|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6465676174732e737667|]
+Jan 16 20:45:03 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/bomb.svg" bytes read 566 written 0
+Jan 16 20:45:03 10.71.57.0 u110789931 [10.71.57.0|get|0|566|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f626f6d622e737667|]
+Jan 16 20:45:03 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/hero.png" flags READ mode 0666
+Jan 16 20:45:04 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" flags READ mode 0666
+Jan 16 20:45:04 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/spiderman.png" bytes read 657960 written 0
+Jan 16 20:45:04 10.71.57.0 u110789931 [10.71.57.0|get|0|657960|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f7370696465726d616e2e706e67|]
+Jan 16 20:45:04 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/ironman.png" flags READ mode 0666
+Jan 16 20:45:04 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/hero.png" bytes read 1143433 written 0
+Jan 16 20:45:04 10.71.57.0 u110789931 [10.71.57.0|get|1|1143433|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f2e706e67|]
+Jan 16 20:45:04 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/ironman.png" bytes read 1143433 written 0
+Jan 16 20:45:04 10.71.57.0 u110789931 [10.71.57.0|get|0|1143433|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f69726f6e6d616e2e706e67|]
+Jan 16 20:45:04 10.71.57.0 u110789931 open "/IUT2/tour-of-heroes/assets/heroes/lokki.png" flags READ mode 0666
+Jan 16 20:45:04 10.71.57.0 u110789931 open "/css/index.php" flags READ mode 0666
+Jan 16 20:45:04 10.71.57.0 u110789931 close "/IUT2/tour-of-heroes/assets/heroes/lokki.png" bytes read 447055 written 0
+Jan 16 20:45:04 10.71.57.0 u110789931 [10.71.57.0|get|0|447055|0|0|0|2f495554322f746f75722d6f662d6865726f65732f6173736574732f6865726f65732f6c6f6b6b692e706e67|]
+Jan 16 20:45:04 10.71.57.0 u110789931 close "/css/index.php" bytes read 70 written 0
+Jan 16 20:45:04 10.71.57.0 u110789931 [10.71.57.0|get|0|70|0|0|0|2f6373732f696e6465782e706870|]
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/css/style.cssbak" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/css/rightDots.css" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 close "/css/style.cssbak" bytes read 11807 written 0
+Jan 16 20:45:05 10.71.57.0 u110789931 [10.71.57.0|get|0|11807|0|0|0|2f6373732f7374796c652e63737362616b|]
+Jan 16 20:45:05 10.71.57.0 u110789931 close "/css/rightDots.css" bytes read 436 written 0
+Jan 16 20:45:05 10.71.57.0 u110789931 [10.71.57.0|get|0|436|0|0|0|2f6373732f7269676874446f74732e637373|]
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/css/style.css" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/css/menu.css" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 close "/css/style.css" bytes read 6914 written 0
+Jan 16 20:45:05 10.71.57.0 u110789931 [10.71.57.0|get|0|6914|0|0|0|2f6373732f7374796c652e637373|]
+Jan 16 20:45:05 10.71.57.0 u110789931 close "/css/menu.css" bytes read 2797 written 0
+Jan 16 20:45:05 10.71.57.0 u110789931 [10.71.57.0|get|0|2797|0|0|0|2f6373732f6d656e752e637373|]
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/electric_map/version.json" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/electric_map/manifest.json" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 close "/electric_map/version.json" bytes read 75 written 0
+Jan 16 20:45:05 10.71.57.0 u110789931 [10.71.57.0|get|0|75|0|0|0|2f656c6563747269635f6d61702f76657273696f6e2e6a736f6e|]
+Jan 16 20:45:05 10.71.57.0 u110789931 open "/electric_map/main.dart.js" flags READ mode 0666
+Jan 16 20:45:05 10.71.57.0 u110789931 close "/electric_map/manifest.json" bytes read 920 written 0
+Jan 16 20:45:05 10.71.57.0 u110789931 [10.71.57.0|get|0|920|0|0|0|2f656c6563747269635f6d61702f6d616e69666573742e6a736f6e|]
+Jan 16 20:45:06 10.71.57.0 u110789931 open "/electric_map/index.html" flags READ mode 0666
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/main.dart.js" bytes read 1474550 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|1|1474550|0|0|0|2f656c6563747269635f6d61702f6d61696e2e646172742e6a73|]
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/index.html" bytes read 1830 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|0|1830|0|0|0|2f656c6563747269635f6d61702f696e6465782e68746d6c|]
+Jan 16 20:45:06 10.71.57.0 u110789931 open "/electric_map/flutter.js" flags READ mode 0666
+Jan 16 20:45:06 10.71.57.0 u110789931 open "/electric_map/flutter_service_worker.js" flags READ mode 0666
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/flutter.js" bytes read 14326 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|0|14326|0|0|0|2f656c6563747269635f6d61702f666c75747465722e6a73|]
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/flutter_service_worker.js" bytes read 7744 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|0|7744|0|0|0|2f656c6563747269635f6d61702f666c75747465725f736572766963655f776f726b65722e6a73|]
+Jan 16 20:45:06 10.71.57.0 u110789931 open "/electric_map/favicon.png" flags READ mode 0666
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/favicon.png" bytes read 917 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|0|917|0|0|0|2f656c6563747269635f6d61702f66617669636f6e2e706e67|]
+Jan 16 20:45:06 10.71.57.0 u110789931 open "/electric_map/assets/AssetManifest.bin" flags READ mode 0666
+Jan 16 20:45:06 10.71.57.0 u110789931 open "/electric_map/assets/AssetManifest.bin.json" flags READ mode 0666
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/assets/AssetManifest.bin" bytes read 2 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|0|2|0|0|0|2f656c6563747269635f6d61702f6173736574732f41737365744d616e69666573742e62696e|]
+Jan 16 20:45:06 10.71.57.0 u110789931 close "/electric_map/assets/AssetManifest.bin.json" bytes read 6 written 0
+Jan 16 20:45:06 10.71.57.0 u110789931 [10.71.57.0|get|0|6|0|0|0|2f656c6563747269635f6d61702f6173736574732f41737365744d616e69666573742e62696e2e6a736f6e|]
+Jan 16 20:45:07 10.71.57.0 u110789931 open "/electric_map/assets/FontManifest.json" flags READ mode 0666
+Jan 16 20:45:07 10.71.57.0 u110789931 open "/electric_map/assets/NOTICES" flags READ mode 0666
+Jan 16 20:45:07 10.71.57.0 u110789931 close "/electric_map/assets/FontManifest.json" bytes read 82 written 0
+Jan 16 20:45:07 10.71.57.0 u110789931 [10.71.57.0|get|0|82|0|0|0|2f656c6563747269635f6d61702f6173736574732f466f6e744d616e69666573742e6a736f6e|]
+Jan 16 20:45:07 10.71.57.0 u110789931 open "/electric_map/assets/AssetManifest.json" flags READ mode 0666
+Jan 16 20:45:07 10.71.57.0 u110789931 close "/electric_map/assets/AssetManifest.json" bytes read 2 written 0
+Jan 16 20:45:07 10.71.57.0 u110789931 [10.71.57.0|get|0|2|0|0|0|2f656c6563747269635f6d61702f6173736574732f41737365744d616e69666573742e6a736f6e|]
+Jan 16 20:45:07 10.71.57.0 u110789931 open "/electric_map/assets/shaders/ink_sparkle.frag" flags READ mode 0666
+Jan 16 20:45:07 10.71.57.0 u110789931 close "/electric_map/assets/NOTICES" bytes read 1672064 written 0
+Jan 16 20:45:07 10.71.57.0 u110789931 [10.71.57.0|get|0|1672064|0|0|0|2f656c6563747269635f6d61702f6173736574732f4e4f5449434553|]
+Jan 16 20:45:07 10.71.57.0 u110789931 close "/electric_map/assets/shaders/ink_sparkle.frag" bytes read 8584 written 0
+Jan 16 20:45:07 10.71.57.0 u110789931 [10.71.57.0|get|0|8584|0|0|0|2f656c6563747269635f6d61702f6173736574732f736861646572732f696e6b5f737061726b6c652e66726167|]
+Jan 16 20:45:07 10.71.57.0 u110789931 open "/electric_map/assets/fonts/MaterialIcons-Regular.otf" flags READ mode 0666
+Jan 16 20:45:08 10.71.57.0 u110789931 open "/electric_map/canvaskit/skwasm.worker.js" flags READ mode 0666
+Jan 16 20:45:08 10.71.57.0 u110789931 close "/electric_map/assets/fonts/MaterialIcons-Regular.otf" bytes read 7968 written 0
+Jan 16 20:45:08 10.71.57.0 u110789931 [10.71.57.0|get|1|7968|0|0|0|2f656c6563747269635f6d61702f6173736574732f666f6e74732f4d6174657269616c49636f6e732d526567756c61722e6f7466|]
+Jan 16 20:45:08 10.71.57.0 u110789931 close "/electric_map/canvaskit/skwasm.worker.js" bytes read 2916 written 0
+Jan 16 20:45:08 10.71.57.0 u110789931 [10.71.57.0|get|0|2916|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f736b7761736d2e776f726b65722e6a73|]
+Jan 16 20:45:08 10.71.57.0 u110789931 open "/electric_map/canvaskit/canvaskit.js" flags READ mode 0666
+Jan 16 20:45:08 10.71.57.0 u110789931 open "/electric_map/canvaskit/canvaskit.wasm" flags READ mode 0666
+Jan 16 20:45:08 10.71.57.0 u110789931 close "/electric_map/canvaskit/canvaskit.js" bytes read 93417 written 0
+Jan 16 20:45:08 10.71.57.0 u110789931 [10.71.57.0|get|0|93417|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f63616e7661736b69742e6a73|]
+Jan 16 20:45:08 10.71.57.0 u110789931 open "/electric_map/canvaskit/skwasm.wasm" flags READ mode 0666
+Jan 16 20:45:08 10.71.57.0 u110789931 close "/electric_map/canvaskit/canvaskit.wasm" bytes read 6631345 written 0
+Jan 16 20:45:08 10.71.57.0 u110789931 [10.71.57.0|get|0|6631345|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f63616e7661736b69742e7761736d|]
+Jan 16 20:45:08 10.71.57.0 u110789931 open "/electric_map/canvaskit/skwasm.js" flags READ mode 0666
+Jan 16 20:45:08 10.71.57.0 u110789931 close "/electric_map/canvaskit/skwasm.js" bytes read 68508 written 0
+Jan 16 20:45:08 10.71.57.0 u110789931 [10.71.57.0|get|0|68508|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f736b7761736d2e6a73|]
+Jan 16 20:45:09 10.71.57.0 u110789931 close "/electric_map/canvaskit/skwasm.wasm" bytes read 3146046 written 0
+Jan 16 20:45:09 10.71.57.0 u110789931 [10.71.57.0|get|1|3146046|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f736b7761736d2e7761736d|]
+Jan 16 20:45:09 10.71.57.0 u110789931 open "/electric_map/canvaskit/chromium/canvaskit.wasm" flags READ mode 0666
+Jan 16 20:45:09 10.71.57.0 u110789931 open "/electric_map/canvaskit/chromium/canvaskit.js" flags READ mode 0666
+Jan 16 20:45:09 10.71.57.0 u110789931 close "/electric_map/canvaskit/chromium/canvaskit.js" bytes read 93109 written 0
+Jan 16 20:45:09 10.71.57.0 u110789931 [10.71.57.0|get|0|93109|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f6368726f6d69756d2f63616e7661736b69742e6a73|]
+Jan 16 20:45:09 10.71.57.0 u110789931 close "/electric_map/canvaskit/chromium/canvaskit.wasm" bytes read 5219313 written 0
+Jan 16 20:45:09 10.71.57.0 u110789931 [10.71.57.0|get|0|5219313|0|0|0|2f656c6563747269635f6d61702f63616e7661736b69742f6368726f6d69756d2f63616e7661736b69742e7761736d|]
+Jan 16 20:45:09 10.71.57.0 u110789931 open "/electric_map/icons/Icon-512.png" flags READ mode 0666
+Jan 16 20:45:09 10.71.57.0 u110789931 open "/electric_map/icons/Icon-maskable-512.png" flags READ mode 0666
+Jan 16 20:45:09 10.71.57.0 u110789931 close "/electric_map/icons/Icon-512.png" bytes read 8252 written 0
+Jan 16 20:45:09 10.71.57.0 u110789931 [10.71.57.0|get|0|8252|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d3531322e706e67|]
+Jan 16 20:45:09 10.71.57.0 u110789931 open "/electric_map/icons/Icon-maskable-192.png" flags READ mode 0666
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/electric_map/icons/Icon-maskable-512.png" bytes read 20998 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|1|20998|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d6d61736b61626c652d3531322e706e67|]
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/electric_map/icons/Icon-maskable-192.png" bytes read 5594 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|1|5594|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d6d61736b61626c652d3139322e706e67|]
+Jan 16 20:45:10 10.71.57.0 u110789931 open "/electric_map/icons/Icon-192.png" flags READ mode 0666
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/electric_map/icons/Icon-192.png" bytes read 5292 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|0|5292|0|0|0|2f656c6563747269635f6d61702f69636f6e732f49636f6e2d3139322e706e67|]
+Jan 16 20:45:10 10.71.57.0 u110789931 open "/electricwidget/policy.html" flags READ mode 0666
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/electricwidget/policy.html" bytes read 2272 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|0|2272|0|0|0|2f656c6563747269637769646765742f706f6c6963792e68746d6c|]
+Jan 16 20:45:10 10.71.57.0 u110789931 open "/gucski/main.edd3699c9128dee0.js" flags READ mode 0666
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/gucski/main.edd3699c9128dee0.js" bytes read 1210821 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|0|1210821|0|0|0|2f677563736b692f6d61696e2e656464333639396339313238646565302e6a73|]
+Jan 16 20:45:10 10.71.57.0 u110789931 open "/gucski/upload.php" flags READ mode 0666
+Jan 16 20:45:10 10.71.57.0 u110789931 open "/gucski/.htaccess" flags READ mode 0666
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/gucski/upload.php" bytes read 1545 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|0|1545|0|0|0|2f677563736b692f75706c6f61642e706870|]
+Jan 16 20:45:10 10.71.57.0 u110789931 close "/gucski/.htaccess" bytes read 380 written 0
+Jan 16 20:45:10 10.71.57.0 u110789931 [10.71.57.0|get|0|380|0|0|0|2f677563736b692f2e6874616363657373|]
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/styles.9d0dcbe9c5bad3b4.css" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/runtime.90508ab7201e6b03.js" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 close "/gucski/styles.9d0dcbe9c5bad3b4.css" bytes read 100045 written 0
+Jan 16 20:45:11 10.71.57.0 u110789931 [10.71.57.0|get|0|100045|0|0|0|2f677563736b692f7374796c65732e396430646362653963356261643362342e637373|]
+Jan 16 20:45:11 10.71.57.0 u110789931 close "/gucski/runtime.90508ab7201e6b03.js" bytes read 1000 written 0
+Jan 16 20:45:11 10.71.57.0 u110789931 [10.71.57.0|get|0|1000|0|0|0|2f677563736b692f72756e74696d652e393035303861623732303165366230332e6a73|]
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/polyfills.c2a4f7cf1f8b04a6.js" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/index.html" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 close "/gucski/polyfills.c2a4f7cf1f8b04a6.js" bytes read 33819 written 0
+Jan 16 20:45:11 10.71.57.0 u110789931 [10.71.57.0|get|0|33819|0|0|0|2f677563736b692f706f6c7966696c6c732e633261346637636631663862303461362e6a73|]
+Jan 16 20:45:11 10.71.57.0 u110789931 close "/gucski/index.html" bytes read 14833 written 0
+Jan 16 20:45:11 10.71.57.0 u110789931 [10.71.57.0|get|0|14833|0|0|0|2f677563736b692f696e6465782e68746d6c|]
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/3rdpartylicenses.txt" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/favicon.ico" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 close "/gucski/3rdpartylicenses.txt" bytes read 16721 written 0
+Jan 16 20:45:11 10.71.57.0 u110789931 [10.71.57.0|get|0|16721|0|0|0|2f677563736b692f33726470617274796c6963656e7365732e747874|]
+Jan 16 20:45:11 10.71.57.0 u110789931 close "/gucski/favicon.ico" bytes read 948 written 0
+Jan 16 20:45:11 10.71.57.0 u110789931 [10.71.57.0|get|0|948|0|0|0|2f677563736b692f66617669636f6e2e69636f|]
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/upload/706099-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:11 10.71.57.0 u110789931 open "/gucski/upload/622086-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:12 10.71.57.0 u110789931 close "/gucski/upload/706099-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:12 10.71.57.0 u110789931 [10.71.57.0|get|1|76374|0|0|0|2f677563736b692f75706c6f61642f3730363039392d63765f73656c6d652e706466|]
+Jan 16 20:45:12 10.71.57.0 u110789931 close "/gucski/upload/622086-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:12 10.71.57.0 u110789931 [10.71.57.0|get|1|54539|0|0|0|2f677563736b692f75706c6f61642f3632323038362d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:12 10.71.57.0 u110789931 open "/gucski/upload/115321-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:12 10.71.57.0 u110789931 open "/gucski/upload/851489-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:12 10.71.57.0 u110789931 close "/gucski/upload/115321-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:12 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3131353332312d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:12 10.71.57.0 u110789931 close "/gucski/upload/851489-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:12 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3835313438392d313134323031355f70657469742e706e67|]
+Jan 16 20:45:12 10.71.57.0 u110789931 open "/gucski/upload/446925-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:12 10.71.57.0 u110789931 open "/gucski/upload/939265-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:12 10.71.57.0 u110789931 close "/gucski/upload/446925-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:12 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3434363932352d63765f73656c6d652e706466|]
+Jan 16 20:45:12 10.71.57.0 u110789931 open "/gucski/upload/913807-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:12 10.71.57.0 u110789931 close "/gucski/upload/939265-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:12 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3933393236352d63765f73656c6d652e706466|]
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/385459-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/913807-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3931333830372d313134323031355f70657469742e706e67|]
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/669041-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/385459-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3338353435392d63765f73656c6d652e706466|]
+Jan 16 20:45:13 10.71.57.0 u110789931 sent status No such file
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/578139-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/669041-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3636393034312d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/617243-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/578139-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3537383133392d313134323031355f70657469742e706e67|]
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/617243-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3631373234332d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/896433-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/326846-github.png" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/896433-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3839363433332d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/326846-github.png" bytes read 8640 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|8640|0|0|0|2f677563736b692f75706c6f61642f3332363834362d6769746875622e706e67|]
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/257810-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 open "/gucski/upload/999398-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/257810-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3235373831302d63765f73656c6d652e706466|]
+Jan 16 20:45:13 10.71.57.0 u110789931 close "/gucski/upload/999398-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:13 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3939393339382d63765f73656c6d652e706466|]
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/970479-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/492331-logo_small.jpeg" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 close "/gucski/upload/492331-logo_small.jpeg" bytes read 17142 written 0
+Jan 16 20:45:14 10.71.57.0 u110789931 [10.71.57.0|get|0|17142|0|0|0|2f677563736b692f75706c6f61642f3439323333312d6c6f676f5f736d616c6c2e6a706567|]
+Jan 16 20:45:14 10.71.57.0 u110789931 close "/gucski/upload/970479-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:14 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3937303437392d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/502758-peugeotlogoblack.png" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/645201-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 close "/gucski/upload/645201-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:14 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3634353230312d63765f73656c6d652e706466|]
+Jan 16 20:45:14 10.71.57.0 u110789931 close "/gucski/upload/502758-peugeotlogoblack.png" bytes read 421394 written 0
+Jan 16 20:45:14 10.71.57.0 u110789931 [10.71.57.0|get|0|421394|0|0|0|2f677563736b692f75706c6f61642f3530323735382d70657567656f746c6f676f626c61636b2e706e67|]
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/541547-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/38061-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 close "/gucski/upload/541547-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:14 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3534313534372d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:14 10.71.57.0 u110789931 close "/gucski/upload/38061-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:14 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f33383036312d63765f73656c6d652e706466|]
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/458924-peugeotlogoblack.png" flags READ mode 0666
+Jan 16 20:45:14 10.71.57.0 u110789931 open "/gucski/upload/120309-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/458924-peugeotlogoblack.png" bytes read 421394 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/120309-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|1|76374|0|0|0|2f677563736b692f75706c6f61642f3132303330392d63765f73656c6d652e706466|]
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|1|421394|0|0|0|2f677563736b692f75706c6f61642f3435383932342d70657567656f746c6f676f626c61636b2e706e67|]
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/268906-cv-selme-kelyan.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/233463-peugeotlogoblack.png" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/268906-cv-selme-kelyan.pdf" bytes read 66391 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/233463-peugeotlogoblack.png" bytes read 421394 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|66391|0|0|0|2f677563736b692f75706c6f61642f3236383930362d63762d73656c6d652d6b656c79616e2e706466|]
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|421394|0|0|0|2f677563736b692f75706c6f61642f3233333436332d70657567656f746c6f676f626c61636b2e706e67|]
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/223387-cv-selme-kelyan.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/356871-img_0415.jpeg" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/223387-cv-selme-kelyan.pdf" bytes read 66391 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|66391|0|0|0|2f677563736b692f75706c6f61642f3232333338372d63762d73656c6d652d6b656c79616e2e706466|]
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/356871-img_0415.jpeg" bytes read 204271 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|204271|0|0|0|2f677563736b692f75706c6f61642f3335363837312d696d675f303431352e6a706567|]
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/479725-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/953322-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/479725-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3437393732352d63765f73656c6d652e706466|]
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/953322-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3935333332322d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/619706-reglement-interne-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 open "/gucski/upload/469223-reglement-interne-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:15 10.71.57.0 u110789931 close "/gucski/upload/619706-reglement-interne-compet-nordique.v2023.pdf" bytes read 157289 written 0
+Jan 16 20:45:15 10.71.57.0 u110789931 [10.71.57.0|get|0|157289|0|0|0|2f677563736b692f75706c6f61642f3631393730362d7265676c656d656e742d696e7465726e652d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/469223-reglement-interne-compet-nordique.v2023.pdf" bytes read 157289 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|1|157289|0|0|0|2f677563736b692f75706c6f61642f3436393232332d7265676c656d656e742d696e7465726e652d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/18408-whatsapp-image-2023-06-20-at-10.13.39.jpeg" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/411851-reglement-interne-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/18408-whatsapp-image-2023-06-20-at-10.13.39.jpeg" bytes read 135787 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|0|135787|0|0|0|2f677563736b692f75706c6f61642f31383430382d77686174736170702d696d6167652d323032332d30362d32302d61742d31302e31332e33392e6a706567|]
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/411851-reglement-interne-compet-nordique.v2023.pdf" bytes read 157289 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|0|157289|0|0|0|2f677563736b692f75706c6f61642f3431313835312d7265676c656d656e742d696e7465726e652d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/57515-reglement-interne-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/577602-whatsapp-image-2023-06-20-at-10.13.39.jpeg" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/57515-reglement-interne-compet-nordique.v2023.pdf" bytes read 157289 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|0|157289|0|0|0|2f677563736b692f75706c6f61642f35373531352d7265676c656d656e742d696e7465726e652d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/577602-whatsapp-image-2023-06-20-at-10.13.39.jpeg" bytes read 135787 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|0|135787|0|0|0|2f677563736b692f75706c6f61642f3537373630322d77686174736170702d696d6167652d323032332d30362d32302d61742d31302e31332e33392e6a706567|]
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/89706-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/110630-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/89706-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f38393730362d63765f73656c6d652e706466|]
+Jan 16 20:45:16 10.71.57.0 u110789931 close "/gucski/upload/110630-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:16 10.71.57.0 u110789931 open "/gucski/upload/256563-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:16 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3131303633302d313134323031355f70657469742e706e67|]
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/742403-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/256563-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3235363536332d313134323031355f70657469742e706e67|]
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/789188-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/742403-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3734323430332d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/300879-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/789188-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3738393138382d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/516799-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/300879-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3330303837392d313134323031355f70657469742e706e67|]
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/516799-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3531363739392d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/139052-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/492943-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/139052-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3133393035322d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:17 10.71.57.0 u110789931 close "/gucski/upload/492943-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:17 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3439323934332d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/928589-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:17 10.71.57.0 u110789931 open "/gucski/upload/726376-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:18 10.71.57.0 u110789931 close "/gucski/upload/928589-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:18 10.71.57.0 u110789931 [10.71.57.0|get|1|54539|0|0|0|2f677563736b692f75706c6f61642f3932383538392d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:18 10.71.57.0 u110789931 close "/gucski/upload/726376-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:18 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3732363337362d313134323031355f70657469742e706e67|]
+Jan 16 20:45:18 10.71.57.0 u110789931 open "/gucski/upload/928182-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:18 10.71.57.0 u110789931 open "/gucski/upload/968804-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:18 10.71.57.0 u110789931 close "/gucski/upload/928182-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:18 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3932383138322d313134323031355f70657469742e706e67|]
+Jan 16 20:45:18 10.71.57.0 u110789931 close "/gucski/upload/968804-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:18 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3936383830342d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:18 10.71.57.0 u110789931 open "/gucski/upload/430453-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:18 10.71.57.0 u110789931 open "/gucski/upload/182446-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:18 10.71.57.0 u110789931 close "/gucski/upload/430453-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:18 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3433303435332d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:18 10.71.57.0 u110789931 open "/gucski/upload/208794-livret-accueil-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/208794-livret-accueil-compet-nordique.v2023.pdf" bytes read 859254 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|1|859254|0|0|0|2f677563736b692f75706c6f61642f3230383739342d6c69767265742d6163637565696c2d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/414153-logo_guc_nordique.png" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/182446-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3138323434362d313134323031355f70657469742e706e67|]
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/45529-livret-accueil-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/414153-logo_guc_nordique.png" bytes read 135725 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|0|135725|0|0|0|2f677563736b692f75706c6f61642f3431343135332d6c6f676f5f6775635f6e6f7264697175652e706e67|]
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/409154-livret-accueil-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/45529-livret-accueil-compet-nordique.v2023.pdf" bytes read 859254 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|0|859254|0|0|0|2f677563736b692f75706c6f61642f34353532392d6c69767265742d6163637565696c2d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/409154-livret-accueil-compet-nordique.v2023.pdf" bytes read 859254 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|0|859254|0|0|0|2f677563736b692f75706c6f61642f3430393135342d6c69767265742d6163637565696c2d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/260512-livret-accueil-compet-nordique.v2023.pdf" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/261670-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/260512-livret-accueil-compet-nordique.v2023.pdf" bytes read 859254 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|0|859254|0|0|0|2f677563736b692f75706c6f61642f3236303531322d6c69767265742d6163637565696c2d636f6d7065742d6e6f7264697175652e76323032332e706466|]
+Jan 16 20:45:19 10.71.57.0 u110789931 close "/gucski/upload/261670-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:19 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3236313637302d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/902470-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:19 10.71.57.0 u110789931 open "/gucski/upload/511731-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:20 10.71.57.0 u110789931 close "/gucski/upload/902470-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:20 10.71.57.0 u110789931 [10.71.57.0|get|1|54048|0|0|0|2f677563736b692f75706c6f61642f3930323437302d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:20 10.71.57.0 u110789931 close "/gucski/upload/511731-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:20 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3531313733312d313134323031355f70657469742e706e67|]
+Jan 16 20:45:20 10.71.57.0 u110789931 open "/gucski/upload/162641-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:20 10.71.57.0 u110789931 open "/gucski/upload/165017-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:20 10.71.57.0 u110789931 close "/gucski/upload/162641-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:20 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3136323634312d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:20 10.71.57.0 u110789931 close "/gucski/upload/165017-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:20 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3136353031372d63765f73656c6d652e706466|]
+Jan 16 20:45:20 10.71.57.0 u110789931 open "/gucski/upload/634583-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:20 10.71.57.0 u110789931 open "/gucski/upload/925835-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:20 10.71.57.0 u110789931 close "/gucski/upload/925835-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:20 10.71.57.0 u110789931 close "/gucski/upload/634583-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:20 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3633343538332d313134323031355f70657469742e706e67|]
+Jan 16 20:45:20 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3932353833352d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:20 10.71.57.0 u110789931 open "/gucski/upload/371888-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:20 10.71.57.0 u110789931 open "/gucski/upload/534243-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/534243-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|1|54539|0|0|0|2f677563736b692f75706c6f61642f3533343234332d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/371888-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3337313838382d313134323031355f70657469742e706e67|]
+Jan 16 20:45:21 10.71.57.0 u110789931 open "/gucski/upload/574801-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 open "/gucski/upload/364196-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/574801-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3537343830312d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/364196-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3336343139362d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:21 10.71.57.0 u110789931 open "/gucski/upload/108849-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 open "/gucski/upload/122335-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/122335-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3132323333352d63765f73656c6d652e706466|]
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/108849-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3130383834392d313134323031355f70657469742e706e67|]
+Jan 16 20:45:21 10.71.57.0 u110789931 open "/gucski/upload/436081-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 open "/gucski/upload/911403-1142015.png" flags READ mode 0666
+Jan 16 20:45:21 10.71.57.0 u110789931 close "/gucski/upload/436081-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:21 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3433363038312d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:22 10.71.57.0 u110789931 open "/gucski/upload/590656-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:22 10.71.57.0 u110789931 close "/gucski/upload/590656-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:22 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3539303635362d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:22 10.71.57.0 u110789931 open "/gucski/upload/83015-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:22 10.71.57.0 u110789931 close "/gucski/upload/83015-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:22 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f38333031352d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:22 10.71.57.0 u110789931 open "/gucski/upload/775333-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:22 10.71.57.0 u110789931 close "/gucski/upload/911403-1142015.png" bytes read 8447199 written 0
+Jan 16 20:45:22 10.71.57.0 u110789931 close "/gucski/upload/775333-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:22 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f3737353333332d313134323031355f70657469742e706e67|]
+Jan 16 20:45:22 10.71.57.0 u110789931 [10.71.57.0|get|1|8447199|0|0|0|2f677563736b692f75706c6f61642f3931313430332d313134323031352e706e67|]
+Jan 16 20:45:23 10.71.57.0 u110789931 open "/gucski/upload/530922-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:23 10.71.57.0 u110789931 open "/gucski/upload/180181-cv-selme-etudiant.pdf" flags READ mode 0666
+Jan 16 20:45:23 10.71.57.0 u110789931 close "/gucski/upload/180181-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:23 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3138303138312d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:23 10.71.57.0 u110789931 close "/gucski/upload/530922-cv-selme-etudiant.pdf" bytes read 54539 written 0
+Jan 16 20:45:23 10.71.57.0 u110789931 [10.71.57.0|get|0|54539|0|0|0|2f677563736b692f75706c6f61642f3533303932322d63762d73656c6d652d6574756469616e742e706466|]
+Jan 16 20:45:23 10.71.57.0 u110789931 open "/gucski/upload/178357-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:23 10.71.57.0 u110789931 open "/gucski/upload/585382-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:23 10.71.57.0 u110789931 close "/gucski/upload/585382-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:23 10.71.57.0 u110789931 [10.71.57.0|get|0|54048|0|0|0|2f677563736b692f75706c6f61642f3538353338322d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:23 10.71.57.0 u110789931 open "/gucski/upload/165594-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:23 10.71.57.0 u110789931 close "/gucski/upload/165594-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:23 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3136353539342d63765f73656c6d652e706466|]
+Jan 16 20:45:24 10.71.57.0 u110789931 open "/gucski/upload/8387-1142015_petit.png" flags READ mode 0666
+Jan 16 20:45:24 10.71.57.0 u110789931 close "/gucski/upload/178357-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:24 10.71.57.0 u110789931 [10.71.57.0|get|1|2225333|0|0|0|2f677563736b692f75706c6f61642f3137383335372d313134323031355f70657469742e706e67|]
+Jan 16 20:45:24 10.71.57.0 u110789931 open "/gucski/upload/753084-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:24 10.71.57.0 u110789931 close "/gucski/upload/753084-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:24 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3735333038342d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:24 10.71.57.0 u110789931 close "/gucski/upload/8387-1142015_petit.png" bytes read 2225333 written 0
+Jan 16 20:45:24 10.71.57.0 u110789931 [10.71.57.0|get|0|2225333|0|0|0|2f677563736b692f75706c6f61642f383338372d313134323031355f70657469742e706e67|]
+Jan 16 20:45:24 10.71.57.0 u110789931 open "/gucski/upload/753813-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:24 10.71.57.0 u110789931 open "/gucski/upload/296777-img_0336.jpeg" flags READ mode 0666
+Jan 16 20:45:24 10.71.57.0 u110789931 close "/gucski/upload/753813-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:24 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3735333831332d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:24 10.71.57.0 u110789931 close "/gucski/upload/296777-img_0336.jpeg" bytes read 2707547 written 0
+Jan 16 20:45:24 10.71.57.0 u110789931 [10.71.57.0|get|0|2707547|0|0|0|2f677563736b692f75706c6f61642f3239363737372d696d675f303333362e6a706567|]
+Jan 16 20:45:25 10.71.57.0 u110789931 open "/gucski/upload/973211-urba-bimby.pdf" flags READ mode 0666
+Jan 16 20:45:25 10.71.57.0 u110789931 open "/gucski/upload/120136-urba-bimby.pdf" flags READ mode 0666
+Jan 16 20:45:25 10.71.57.0 u110789931 close "/gucski/upload/120136-urba-bimby.pdf" bytes read 279218 written 0
+Jan 16 20:45:25 10.71.57.0 u110789931 close "/gucski/upload/973211-urba-bimby.pdf" bytes read 279218 written 0
+Jan 16 20:45:25 10.71.57.0 u110789931 [10.71.57.0|get|0|279218|0|0|0|2f677563736b692f75706c6f61642f3132303133362d757262612d62696d62792e706466|]
+Jan 16 20:45:25 10.71.57.0 u110789931 [10.71.57.0|get|0|279218|0|0|0|2f677563736b692f75706c6f61642f3937333231312d757262612d62696d62792e706466|]
+Jan 16 20:45:25 10.71.57.0 u110789931 open "/gucski/upload/236707-img_0338.jpeg" flags READ mode 0666
+Jan 16 20:45:25 10.71.57.0 u110789931 open "/gucski/upload/591208-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:25 10.71.57.0 u110789931 close "/gucski/upload/591208-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:25 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3539313230382d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:25 10.71.57.0 u110789931 open "/gucski/upload/994381-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:26 10.71.57.0 u110789931 close "/gucski/upload/236707-img_0338.jpeg" bytes read 3882472 written 0
+Jan 16 20:45:26 10.71.57.0 u110789931 [10.71.57.0|get|1|3882472|0|0|0|2f677563736b692f75706c6f61642f3233363730372d696d675f303333382e6a706567|]
+Jan 16 20:45:26 10.71.57.0 u110789931 open "/gucski/upload/614194-d48ab847-6927-4606-afb7-05782d506edf.jpeg" flags READ mode 0666
+Jan 16 20:45:26 10.71.57.0 u110789931 close "/gucski/upload/994381-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:26 10.71.57.0 u110789931 [10.71.57.0|get|1|507322|0|0|0|2f677563736b692f75706c6f61642f3939343338312d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:26 10.71.57.0 u110789931 open "/gucski/upload/893701-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:26 10.71.57.0 u110789931 close "/gucski/upload/614194-d48ab847-6927-4606-afb7-05782d506edf.jpeg" bytes read 2577213 written 0
+Jan 16 20:45:26 10.71.57.0 u110789931 [10.71.57.0|get|0|2577213|0|0|0|2f677563736b692f75706c6f61642f3631343139342d64343861623834372d363932372d343630362d616662372d3035373832643530366564662e6a706567|]
+Jan 16 20:45:26 10.71.57.0 u110789931 open "/gucski/upload/200795-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:26 10.71.57.0 u110789931 close "/gucski/upload/893701-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:26 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3839333730312d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:26 10.71.57.0 u110789931 close "/gucski/upload/200795-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:26 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3230303739352d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:26 10.71.57.0 u110789931 open "/gucski/upload/577628-img_0340.jpeg" flags READ mode 0666
+Jan 16 20:45:27 10.71.57.0 u110789931 open "/gucski/upload/130815-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:27 10.71.57.0 u110789931 close "/gucski/upload/130815-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:27 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3133303831352d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:27 10.71.57.0 u110789931 open "/gucski/upload/270145-kelyan-cni.pdf" flags READ mode 0666
+Jan 16 20:45:27 10.71.57.0 u110789931 close "/gucski/upload/270145-kelyan-cni.pdf" bytes read 507322 written 0
+Jan 16 20:45:27 10.71.57.0 u110789931 [10.71.57.0|get|0|507322|0|0|0|2f677563736b692f75706c6f61642f3237303134352d6b656c79616e2d636e692e706466|]
+Jan 16 20:45:27 10.71.57.0 u110789931 open "/gucski/upload/954643-pxl_20230812_223459218~2.jpg" flags READ mode 0666
+Jan 16 20:45:27 10.71.57.0 u110789931 close "/gucski/upload/954643-pxl_20230812_223459218~2.jpg" bytes read 278741 written 0
+Jan 16 20:45:27 10.71.57.0 u110789931 [10.71.57.0|get|0|278741|0|0|0|2f677563736b692f75706c6f61642f3935343634332d70786c5f32303233303831325f3232333435393231387e322e6a7067|]
+Jan 16 20:45:27 10.71.57.0 u110789931 close "/gucski/upload/577628-img_0340.jpeg" bytes read 3531117 written 0
+Jan 16 20:45:27 10.71.57.0 u110789931 [10.71.57.0|get|1|3531117|0|0|0|2f677563736b692f75706c6f61642f3537373632382d696d675f303334302e6a706567|]
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/370612-reglement_nordique.pdf" flags READ mode 0666
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/715688-reglement_nordique.pdf" flags READ mode 0666
+Jan 16 20:45:28 10.71.57.0 u110789931 close "/gucski/upload/370612-reglement_nordique.pdf" bytes read 82870 written 0
+Jan 16 20:45:28 10.71.57.0 u110789931 [10.71.57.0|get|0|82870|0|0|0|2f677563736b692f75706c6f61642f3337303631322d7265676c656d656e745f6e6f7264697175652e706466|]
+Jan 16 20:45:28 10.71.57.0 u110789931 close "/gucski/upload/715688-reglement_nordique.pdf" bytes read 82870 written 0
+Jan 16 20:45:28 10.71.57.0 u110789931 [10.71.57.0|get|0|82870|0|0|0|2f677563736b692f75706c6f61642f3731353638382d7265676c656d656e745f6e6f7264697175652e706466|]
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/588492-reglement_nordique.pdf" flags READ mode 0666
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/633261-pxl_20230812_223459218~2.jpg" flags READ mode 0666
+Jan 16 20:45:28 10.71.57.0 u110789931 close "/gucski/upload/588492-reglement_nordique.pdf" bytes read 82870 written 0
+Jan 16 20:45:28 10.71.57.0 u110789931 [10.71.57.0|get|0|82870|0|0|0|2f677563736b692f75706c6f61642f3538383439322d7265676c656d656e745f6e6f7264697175652e706466|]
+Jan 16 20:45:28 10.71.57.0 u110789931 close "/gucski/upload/633261-pxl_20230812_223459218~2.jpg" bytes read 278741 written 0
+Jan 16 20:45:28 10.71.57.0 u110789931 [10.71.57.0|get|0|278741|0|0|0|2f677563736b692f75706c6f61642f3633333236312d70786c5f32303233303831325f3232333435393231387e322e6a7067|]
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/173547-fiche_sanitaire.pdf" flags READ mode 0666
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/568410-reglement_nordique.pdf" flags READ mode 0666
+Jan 16 20:45:28 10.71.57.0 u110789931 close "/gucski/upload/568410-reglement_nordique.pdf" bytes read 82870 written 0
+Jan 16 20:45:28 10.71.57.0 u110789931 [10.71.57.0|get|0|82870|0|0|0|2f677563736b692f75706c6f61642f3536383431302d7265676c656d656e745f6e6f7264697175652e706466|]
+Jan 16 20:45:28 10.71.57.0 u110789931 open "/gucski/upload/978337-reglement_nordique.pdf" flags READ mode 0666
+Jan 16 20:45:29 10.71.57.0 u110789931 close "/gucski/upload/978337-reglement_nordique.pdf" bytes read 82870 written 0
+Jan 16 20:45:29 10.71.57.0 u110789931 [10.71.57.0|get|1|82870|0|0|0|2f677563736b692f75706c6f61642f3937383333372d7265676c656d656e745f6e6f7264697175652e706466|]
+Jan 16 20:45:29 10.71.57.0 u110789931 close "/gucski/upload/173547-fiche_sanitaire.pdf" bytes read 558443 written 0
+Jan 16 20:45:29 10.71.57.0 u110789931 [10.71.57.0|get|1|558443|0|0|0|2f677563736b692f75706c6f61642f3137333534372d66696368655f73616e6974616972652e706466|]
+Jan 16 20:45:29 10.71.57.0 u110789931 open "/gucski/upload/63401-fiche_sanitaire.pdf" flags READ mode 0666
+Jan 16 20:45:29 10.71.57.0 u110789931 open "/gucski/upload/974897-pxl_20230812_223459218~2.jpg" flags READ mode 0666
+Jan 16 20:45:29 10.71.57.0 u110789931 close "/gucski/upload/974897-pxl_20230812_223459218~2.jpg" bytes read 278741 written 0
+Jan 16 20:45:29 10.71.57.0 u110789931 [10.71.57.0|get|0|278741|0|0|0|2f677563736b692f75706c6f61642f3937343839372d70786c5f32303233303831325f3232333435393231387e322e6a7067|]
+Jan 16 20:45:29 10.71.57.0 u110789931 close "/gucski/upload/63401-fiche_sanitaire.pdf" bytes read 558443 written 0
+Jan 16 20:45:29 10.71.57.0 u110789931 [10.71.57.0|get|0|558443|0|0|0|2f677563736b692f75706c6f61642f36333430312d66696368655f73616e6974616972652e706466|]
+Jan 16 20:45:29 10.71.57.0 u110789931 open "/gucski/upload/387236-questionnaire-sante-mineur.pdf" flags READ mode 0666
+Jan 16 20:45:29 10.71.57.0 u110789931 open "/gucski/upload/625995-cosme_reglement-interne-nordique.pdf" flags READ mode 0666
+Jan 16 20:45:29 10.71.57.0 u110789931 close "/gucski/upload/625995-cosme_reglement-interne-nordique.pdf" bytes read 89740 written 0
+Jan 16 20:45:29 10.71.57.0 u110789931 [10.71.57.0|get|0|89740|0|0|0|2f677563736b692f75706c6f61642f3632353939352d636f736d655f7265676c656d656e742d696e7465726e652d6e6f7264697175652e706466|]
+Jan 16 20:45:29 10.71.57.0 u110789931 close "/gucski/upload/387236-questionnaire-sante-mineur.pdf" bytes read 918492 written 0
+Jan 16 20:45:29 10.71.57.0 u110789931 [10.71.57.0|get|0|918492|0|0|0|2f677563736b692f75706c6f61642f3338373233362d7175657374696f6e6e616972652d73616e74652d6d696e6575722e706466|]
+Jan 16 20:45:29 10.71.57.0 u110789931 open "/gucski/upload/280451-scan-ecran-r\303\250glement-int\303\251rieur.jpg" flags READ mode 0666
+Jan 16 20:45:29 10.71.57.0 u110789931 open "/gucski/upload/67942-fiche-sanitaire-de-liaison.pdf" flags READ mode 0666
+Jan 16 20:45:30 10.71.57.0 u110789931 close "/gucski/upload/67942-fiche-sanitaire-de-liaison.pdf" bytes read 459988 written 0
+Jan 16 20:45:30 10.71.57.0 u110789931 [10.71.57.0|get|1|459988|0|0|0|2f677563736b692f75706c6f61642f36373934322d66696368652d73616e6974616972652d64652d6c696169736f6e2e706466|]
+Jan 16 20:45:30 10.71.57.0 u110789931 close "/gucski/upload/280451-scan-ecran-r\303\250glement-int\303\251rieur.jpg" bytes read 808356 written 0
+Jan 16 20:45:30 10.71.57.0 u110789931 [10.71.57.0|get|1|808356|0|0|0|2f677563736b692f75706c6f61642f3238303435312d7363616e2d656372616e2d72c3a8676c656d656e742d696e74c3a972696575722e6a7067|]
+Jan 16 20:45:30 10.71.57.0 u110789931 open "/gucski/upload/722182-r\303\250glement-int\303\251rieur.pdf" flags READ mode 0666
+Jan 16 20:45:30 10.71.57.0 u110789931 open "/gucski/upload/763432-photo-eva-1.jpg" flags READ mode 0666
+Jan 16 20:45:30 10.71.57.0 u110789931 close "/gucski/upload/722182-r\303\250glement-int\303\251rieur.pdf" bytes read 669881 written 0
+Jan 16 20:45:30 10.71.57.0 u110789931 [10.71.57.0|get|0|669881|0|0|0|2f677563736b692f75706c6f61642f3732323138322d72c3a8676c656d656e742d696e74c3a972696575722e706466|]
+Jan 16 20:45:30 10.71.57.0 u110789931 close "/gucski/upload/763432-photo-eva-1.jpg" bytes read 363101 written 0
+Jan 16 20:45:30 10.71.57.0 u110789931 [10.71.57.0|get|0|363101|0|0|0|2f677563736b692f75706c6f61642f3736333433322d70686f746f2d6576612d312e6a7067|]
+Jan 16 20:45:30 10.71.57.0 u110789931 open "/gucski/upload/570928-certificat_de_scolarit\303\251_lib3ra_2023-2024_kelyan_selme.pdf" flags READ mode 0666
+Jan 16 20:45:30 10.71.57.0 u110789931 open "/gucski/upload/373463-certificat_de_scolarit\303\251_lib3ra_2023-2024_kelyan_selme.pdf" flags READ mode 0666
+Jan 16 20:45:30 10.71.57.0 u110789931 close "/gucski/upload/570928-certificat_de_scolarit\303\251_lib3ra_2023-2024_kelyan_selme.pdf" bytes read 139042 written 0
+Jan 16 20:45:30 10.71.57.0 u110789931 [10.71.57.0|get|0|139042|0|0|0|2f677563736b692f75706c6f61642f3537303932382d636572746966696361745f64655f73636f6c61726974c3a95f6c69623372615f323032332d323032345f6b656c79616e5f73656c6d652e706466|]
+Jan 16 20:45:30 10.71.57.0 u110789931 close "/gucski/upload/373463-certificat_de_scolarit\303\251_lib3ra_2023-2024_kelyan_selme.pdf" bytes read 139042 written 0
+Jan 16 20:45:30 10.71.57.0 u110789931 [10.71.57.0|get|0|139042|0|0|0|2f677563736b692f75706c6f61642f3337333436332d636572746966696361745f64655f73636f6c61726974c3a95f6c69623372615f323032332d323032345f6b656c79616e5f73656c6d652e706466|]
+Jan 16 20:45:30 10.71.57.0 u110789931 open "/gucski/upload/853425-cv_selme.pdf" flags READ mode 0666
+Jan 16 20:45:30 10.71.57.0 u110789931 open "/gucski/upload/395631-cv_selme_serveur.pdf" flags READ mode 0666
+Jan 16 20:45:31 10.71.57.0 u110789931 close "/gucski/upload/853425-cv_selme.pdf" bytes read 76374 written 0
+Jan 16 20:45:31 10.71.57.0 u110789931 [10.71.57.0|get|0|76374|0|0|0|2f677563736b692f75706c6f61642f3835333432352d63765f73656c6d652e706466|]
+Jan 16 20:45:31 10.71.57.0 u110789931 close "/gucski/upload/395631-cv_selme_serveur.pdf" bytes read 54048 written 0
+Jan 16 20:45:31 10.71.57.0 u110789931 [10.71.57.0|get|1|54048|0|0|0|2f677563736b692f75706c6f61642f3339353633312d63765f73656c6d655f736572766575722e706466|]
+Jan 16 20:45:31 10.71.57.0 u110789931 open "/gucski/upload/80756-img_0332.png" flags READ mode 0666
+Jan 16 20:45:31 10.71.57.0 u110789931 open "/gucski/assets/nordique-loisirs.json" flags READ mode 0666
+Jan 16 20:45:31 10.71.57.0 u110789931 close "/gucski/upload/80756-img_0332.png" bytes read 262463 written 0
+Jan 16 20:45:31 10.71.57.0 u110789931 [10.71.57.0|get|0|262463|0|0|0|2f677563736b692f75706c6f61642f38303735362d696d675f303333322e706e67|]
+Jan 16 20:45:31 10.71.57.0 u110789931 close "/gucski/assets/nordique-loisirs.json" bytes read 7815 written 0
+Jan 16 20:45:31 10.71.57.0 u110789931 [10.71.57.0|get|0|7815|0|0|0|2f677563736b692f6173736574732f6e6f7264697175652d6c6f69736972732e6a736f6e|]
+Jan 16 20:45:31 10.71.57.0 u110789931 open "/gucski/assets/nordique-competition.json" flags READ mode 0666
+Jan 16 20:45:31 10.71.57.0 u110789931 open "/gucski/assets/alpin-competition.json" flags READ mode 0666
+Jan 16 20:45:31 10.71.57.0 u110789931 close "/gucski/assets/alpin-competition.json" bytes read 10538 written 0
+Jan 16 20:45:31 10.71.57.0 u110789931 [10.71.57.0|get|0|10538|0|0|0|2f677563736b692f6173736574732f616c70696e2d636f6d7065746974696f6e2e6a736f6e|]
+Jan 16 20:45:31 10.71.57.0 u110789931 close "/gucski/assets/nordique-competition.json" bytes read 10378 written 0
+Jan 16 20:45:31 10.71.57.0 u110789931 [10.71.57.0|get|0|10378|0|0|0|2f677563736b692f6173736574732f6e6f7264697175652d636f6d7065746974696f6e2e6a736f6e|]
+Jan 16 20:45:31 10.71.57.0 u110789931 open "/gucski/assets/logo_small.jpeg" flags READ mode 0666
+Jan 16 20:45:32 10.71.57.0 u110789931 open "/gucski/files/reglement_nordique.pdf" flags READ mode 0666
+Jan 16 20:45:32 10.71.57.0 u110789931 close "/gucski/assets/logo_small.jpeg" bytes read 17142 written 0
+Jan 16 20:45:32 10.71.57.0 u110789931 [10.71.57.0|get|1|17142|0|0|0|2f677563736b692f6173736574732f6c6f676f5f736d616c6c2e6a706567|]
+Jan 16 20:45:32 10.71.57.0 u110789931 close "/gucski/files/reglement_nordique.pdf" bytes read 157289 written 0
+Jan 16 20:45:32 10.71.57.0 u110789931 [10.71.57.0|get|0|157289|0|0|0|2f677563736b692f66696c65732f7265676c656d656e745f6e6f7264697175652e706466|]
+Jan 16 20:45:32 10.71.57.0 u110789931 open "/gucski/files/reglement_alpin.pdf" flags READ mode 0666
+Jan 16 20:45:32 10.71.57.0 u110789931 open "/gucski/files/fiche_sanitaire.pdf" flags READ mode 0666
+Jan 16 20:45:32 10.71.57.0 u110789931 close "/gucski/files/reglement_alpin.pdf" bytes read 129187 written 0
+Jan 16 20:45:32 10.71.57.0 u110789931 [10.71.57.0|get|0|129187|0|0|0|2f677563736b692f66696c65732f7265676c656d656e745f616c70696e2e706466|]
+Jan 16 20:45:32 10.71.57.0 u110789931 open "/gucski/api/sendMail.php" flags READ mode 0666
+Jan 16 20:45:32 10.71.57.0 u110789931 close "/gucski/files/fiche_sanitaire.pdf" bytes read 558443 written 0
+Jan 16 20:45:32 10.71.57.0 u110789931 [10.71.57.0|get|0|558443|0|0|0|2f677563736b692f66696c65732f66696368655f73616e6974616972652e706466|]
+Jan 16 20:45:32 10.71.57.0 u110789931 close "/gucski/api/sendMail.php" bytes read 2222 written 0
+Jan 16 20:45:32 10.71.57.0 u110789931 [10.71.57.0|get|0|2222|0|0|0|2f677563736b692f6170692f73656e644d61696c2e706870|]
+Jan 16 20:45:32 10.71.57.0 u110789931 open "/gucski/api/saveError.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/getAdresses.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/saveError.php" bytes read 1164 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|1|1164|0|0|0|2f677563736b692f6170692f736176654572726f722e706870|]
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/getAdresses.php" bytes read 512 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|0|512|0|0|0|2f677563736b692f6170692f67657441647265737365732e706870|]
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/getResults.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/updatePayment.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/getResults.php" bytes read 1132 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|0|1132|0|0|0|2f677563736b692f6170692f676574526573756c74732e706870|]
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/updatePayment.php" bytes read 1331 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|0|1331|0|0|0|2f677563736b692f6170692f7570646174655061796d656e742e706870|]
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/id.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/getPaymentLink.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/id.php" bytes read 321 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|0|321|0|0|0|2f677563736b692f6170692f69642e706870|]
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/getPaymentLink.php" bytes read 2295 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|0|2295|0|0|0|2f677563736b692f6170692f6765745061796d656e744c696e6b2e706870|]
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/checkPass.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 open "/gucski/api/add.php" flags READ mode 0666
+Jan 16 20:45:33 10.71.57.0 u110789931 close "/gucski/api/checkPass.php" bytes read 741 written 0
+Jan 16 20:45:33 10.71.57.0 u110789931 [10.71.57.0|get|0|741|0|0|0|2f677563736b692f6170692f636865636b506173732e706870|]
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/gucski/api/add.php" bytes read 3271 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|1|3271|0|0|0|2f677563736b692f6170692f6164642e706870|]
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/playstore.png" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/img/playstore.png" bytes read 6129 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|0|6129|0|0|0|2f696d672f706c617973746f72652e706e67|]
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/appstore.png" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/index.php" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/img/appstore.png" bytes read 4891 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|0|4891|0|0|0|2f696d672f61707073746f72652e706e67|]
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/windows.svg" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/img/index.php" bytes read 70 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|0|70|0|0|0|2f696d672f696e6465782e706870|]
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/img/windows.svg" bytes read 389 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|0|389|0|0|0|2f696d672f77696e646f77732e737667|]
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/vs-code.svg" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/uk.svg" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/img/vs-code.svg" bytes read 693 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|0|693|0|0|0|2f696d672f76732d636f64652e737667|]
+Jan 16 20:45:34 10.71.57.0 u110789931 open "/img/ts.svg" flags READ mode 0666
+Jan 16 20:45:34 10.71.57.0 u110789931 close "/img/uk.svg" bytes read 692 written 0
+Jan 16 20:45:34 10.71.57.0 u110789931 [10.71.57.0|get|0|692|0|0|0|2f696d672f756b2e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/swift.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/ts.svg" bytes read 912 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|1|912|0|0|0|2f696d672f74732e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/sql.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/swift.svg" bytes read 1819 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|0|1819|0|0|0|2f696d672f73776966742e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/sql.svg" bytes read 3120 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|0|3120|0|0|0|2f696d672f73716c2e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/react-native.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/react-js.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/react-native.svg" bytes read 8637 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|0|8637|0|0|0|2f696d672f72656163742d6e61746976652e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/react-js.svg" bytes read 2626 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|0|2626|0|0|0|2f696d672f72656163742d6a732e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/linux.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/python.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/linux.svg" bytes read 447101 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|0|447101|0|0|0|2f696d672f6c696e75782e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 close "/img/python.svg" bytes read 1315 written 0
+Jan 16 20:45:35 10.71.57.0 u110789931 [10.71.57.0|get|0|1315|0|0|0|2f696d672f707974686f6e2e737667|]
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/play.svg" flags READ mode 0666
+Jan 16 20:45:35 10.71.57.0 u110789931 open "/img/php.svg" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/play.svg" bytes read 1456 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|1|1456|0|0|0|2f696d672f706c61792e737667|]
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/php.svg" bytes read 932 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|1|932|0|0|0|2f696d672f7068702e737667|]
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/nodejs.svg" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/macos.svg" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/nodejs.svg" bytes read 1797 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|0|1797|0|0|0|2f696d672f6e6f64656a732e737667|]
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/macos.svg" bytes read 651 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|0|651|0|0|0|2f696d672f6d61636f732e737667|]
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/logoShortRed.png" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/logoCompletWhite.png" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/logoShortRed.png" bytes read 6998 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/logoCompletWhite.png" bytes read 23313 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|0|6998|0|0|0|2f696d672f6c6f676f53686f72745265642e706e67|]
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|0|23313|0|0|0|2f696d672f6c6f676f436f6d706c657457686974652e706e67|]
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/logoCompletBlack.png" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/js.svg" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/js.svg" bytes read 1068 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|0|1068|0|0|0|2f696d672f6a732e737667|]
+Jan 16 20:45:36 10.71.57.0 u110789931 close "/img/logoCompletBlack.png" bytes read 23936 written 0
+Jan 16 20:45:36 10.71.57.0 u110789931 [10.71.57.0|get|0|23936|0|0|0|2f696d672f6c6f676f436f6d706c6574426c61636b2e706e67|]
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/github.svg" flags READ mode 0666
+Jan 16 20:45:36 10.71.57.0 u110789931 open "/img/fullScreen.png" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/github.svg" bytes read 3133 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|1|3133|0|0|0|2f696d672f6769746875622e737667|]
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/fullScreen.png" bytes read 7263 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|1|7263|0|0|0|2f696d672f66756c6c53637265656e2e706e67|]
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/html.svg" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/flask.svg" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/html.svg" bytes read 480 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|0|480|0|0|0|2f696d672f68746d6c2e737667|]
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/flask.svg" bytes read 16668 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|0|16668|0|0|0|2f696d672f666c61736b2e737667|]
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/firebase.svg" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/france.png" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/firebase.svg" bytes read 2439 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|0|2439|0|0|0|2f696d672f66697265626173652e737667|]
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/france.png" bytes read 7001 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|0|7001|0|0|0|2f696d672f6672616e63652e706e67|]
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/down.png" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/css.svg" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/down.png" bytes read 12348 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|0|12348|0|0|0|2f696d672f646f776e2e706e67|]
+Jan 16 20:45:37 10.71.57.0 u110789931 close "/img/css.svg" bytes read 495 written 0
+Jan 16 20:45:37 10.71.57.0 u110789931 [10.71.57.0|get|0|495|0|0|0|2f696d672f6373732e737667|]
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/docker.png" flags READ mode 0666
+Jan 16 20:45:37 10.71.57.0 u110789931 open "/img/appstore.svg" flags READ mode 0666
+Jan 16 20:45:38 10.71.57.0 u110789931 close "/img/docker.png" bytes read 11012 written 0
+Jan 16 20:45:38 10.71.57.0 u110789931 [10.71.57.0|get|1|11012|0|0|0|2f696d672f646f636b65722e706e67|]
+Jan 16 20:45:38 10.71.57.0 u110789931 close "/img/appstore.svg" bytes read 1493 written 0
+Jan 16 20:45:38 10.71.57.0 u110789931 [10.71.57.0|get|1|1493|0|0|0|2f696d672f61707073746f72652e737667|]
+Jan 16 20:45:38 10.71.57.0 u110789931 open "/img/angular.svg" flags READ mode 0666
+Jan 16 20:45:38 10.71.57.0 u110789931 open "/img/reals/depboard/app.png" flags READ mode 0666
+Jan 16 20:45:38 10.71.57.0 u110789931 close "/img/angular.svg" bytes read 510 written 0
+Jan 16 20:45:38 10.71.57.0 u110789931 [10.71.57.0|get|0|510|0|0|0|2f696d672f616e67756c61722e737667|]
+Jan 16 20:45:38 10.71.57.0 u110789931 close "/img/reals/depboard/app.png" bytes read 331214 written 0
+Jan 16 20:45:38 10.71.57.0 u110789931 [10.71.57.0|get|0|331214|0|0|0|2f696d672f7265616c732f646570626f6172642f6170702e706e67|]
+Jan 16 20:45:38 10.71.57.0 u110789931 open "/img/reals/kyelakan/app.png" flags READ mode 0666
+Jan 16 20:45:38 10.71.57.0 u110789931 open "/img/reals/lespot/v2.png" flags READ mode 0666
+Jan 16 20:45:38 10.71.57.0 u110789931 close "/img/reals/lespot/v2.png" bytes read 100493 written 0
+Jan 16 20:45:38 10.71.57.0 u110789931 [10.71.57.0|get|0|100493|0|0|0|2f696d672f7265616c732f6c6573706f742f76322e706e67|]
+Jan 16 20:45:39 10.71.57.0 u110789931 open "/img/reals/lespot/v1.png" flags READ mode 0666
+Jan 16 20:45:39 10.71.57.0 u110789931 close "/img/reals/kyelakan/app.png" bytes read 714767 written 0
+Jan 16 20:45:39 10.71.57.0 u110789931 [10.71.57.0|get|1|714767|0|0|0|2f696d672f7265616c732f6b79656c616b616e2f6170702e706e67|]
+Jan 16 20:45:39 10.71.57.0 u110789931 close "/img/reals/lespot/v1.png" bytes read 94285 written 0
+Jan 16 20:45:39 10.71.57.0 u110789931 [10.71.57.0|get|0|94285|0|0|0|2f696d672f7265616c732f6c6573706f742f76312e706e67|]
+Jan 16 20:45:39 10.71.57.0 u110789931 open "/img/reals/lespot/.DS_Store" flags READ mode 0666
+Jan 16 20:45:39 10.71.57.0 u110789931 open "/img/reals/lespot/full.png" flags READ mode 0666
+Jan 16 20:45:39 10.71.57.0 u110789931 close "/img/reals/lespot/.DS_Store" bytes read 6148 written 0
+Jan 16 20:45:39 10.71.57.0 u110789931 [10.71.57.0|get|0|6148|0|0|0|2f696d672f7265616c732f6c6573706f742f2e44535f53746f7265|]
+Jan 16 20:45:39 10.71.57.0 u110789931 close "/img/reals/lespot/full.png" bytes read 565857 written 0
+Jan 16 20:45:39 10.71.57.0 u110789931 [10.71.57.0|get|0|565857|0|0|0|2f696d672f7265616c732f6c6573706f742f66756c6c2e706e67|]
+Jan 16 20:45:39 10.71.57.0 u110789931 open "/img/reals/myrenault/app.png" flags READ mode 0666
+Jan 16 20:45:39 10.71.57.0 u110789931 open "/img/reals/myrenault/lockscreendual.png" flags READ mode 0666
+Jan 16 20:45:39 10.71.57.0 u110789931 close "/img/reals/myrenault/app.png" bytes read 1368269 written 0
+Jan 16 20:45:39 10.71.57.0 u110789931 [10.71.57.0|get|0|1368269|0|0|0|2f696d672f7265616c732f6d7972656e61756c742f6170702e706e67|]
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/img/reals/myrenault/lockscreendual.png" bytes read 2958730 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|1|2958730|0|0|0|2f696d672f7265616c732f6d7972656e61756c742f6c6f636b73637265656e6475616c2e706e67|]
+Jan 16 20:45:40 10.71.57.0 u110789931 open "/img/reals/myrenault/appleWatchComplication.png" flags READ mode 0666
+Jan 16 20:45:40 10.71.57.0 u110789931 open "/img/reals/myrenault/appleWatchApp.png" flags READ mode 0666
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/img/reals/myrenault/appleWatchComplication.png" bytes read 157191 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|0|157191|0|0|0|2f696d672f7265616c732f6d7972656e61756c742f6170706c655761746368436f6d706c69636174696f6e2e706e67|]
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/img/reals/myrenault/appleWatchApp.png" bytes read 154534 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|0|154534|0|0|0|2f696d672f7265616c732f6d7972656e61756c742f6170706c6557617463684170702e706e67|]
+Jan 16 20:45:40 10.71.57.0 u110789931 open "/js/index.php" flags READ mode 0666
+Jan 16 20:45:40 10.71.57.0 u110789931 open "/js/languages.js" flags READ mode 0666
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/js/index.php" bytes read 70 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|0|70|0|0|0|2f6a732f696e6465782e706870|]
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/js/languages.js" bytes read 2351 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|0|2351|0|0|0|2f6a732f6c616e6775616765732e6a73|]
+Jan 16 20:45:40 10.71.57.0 u110789931 open "/js/script.js" flags READ mode 0666
+Jan 16 20:45:40 10.71.57.0 u110789931 open "/js/carousel.js" flags READ mode 0666
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/js/script.js" bytes read 7960 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|0|7960|0|0|0|2f6a732f7363726970742e6a73|]
+Jan 16 20:45:40 10.71.57.0 u110789931 close "/js/carousel.js" bytes read 1627 written 0
+Jan 16 20:45:40 10.71.57.0 u110789931 [10.71.57.0|get|0|1627|0|0|0|2f6a732f6361726f7573656c2e6a73|]
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/index.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/id.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 close "/kyelakan/index.php" bytes read 70 written 0
+Jan 16 20:45:41 10.71.57.0 u110789931 [10.71.57.0|get|0|70|0|0|0|2f6b79656c616b616e2f696e6465782e706870|]
+Jan 16 20:45:41 10.71.57.0 u110789931 close "/kyelakan/api/id.php" bytes read 198 written 0
+Jan 16 20:45:41 10.71.57.0 u110789931 [10.71.57.0|get|0|198|0|0|0|2f6b79656c616b616e2f6170692f69642e706870|]
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/getTeams.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/getWaitingInviteTeams.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 close "/kyelakan/api/getTeams.php" bytes read 1059 written 0
+Jan 16 20:45:41 10.71.57.0 u110789931 [10.71.57.0|get|0|1059|0|0|0|2f6b79656c616b616e2f6170692f6765745465616d732e706870|]
+Jan 16 20:45:41 10.71.57.0 u110789931 close "/kyelakan/api/getWaitingInviteTeams.php" bytes read 1051 written 0
+Jan 16 20:45:41 10.71.57.0 u110789931 [10.71.57.0|get|0|1051|0|0|0|2f6b79656c616b616e2f6170692f67657457616974696e67496e766974655465616d732e706870|]
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/getInviteAccept.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/getEvents.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 close "/kyelakan/api/getInviteAccept.php" bytes read 1047 written 0
+Jan 16 20:45:41 10.71.57.0 u110789931 [10.71.57.0|get|0|1047|0|0|0|2f6b79656c616b616e2f6170692f676574496e766974654163636570742e706870|]
+Jan 16 20:45:41 10.71.57.0 u110789931 close "/kyelakan/api/getEvents.php" bytes read 1326 written 0
+Jan 16 20:45:41 10.71.57.0 u110789931 [10.71.57.0|get|0|1326|0|0|0|2f6b79656c616b616e2f6170692f6765744576656e74732e706870|]
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/acceptInvite.php" flags READ mode 0666
+Jan 16 20:45:41 10.71.57.0 u110789931 open "/kyelakan/api/login.php" flags READ mode 0666
+Jan 16 20:45:42 10.71.57.0 u110789931 close "/kyelakan/api/login.php" bytes read 1837 written 0
+Jan 16 20:45:42 10.71.57.0 u110789931 close "/kyelakan/api/acceptInvite.php" bytes read 1364 written 0
+Jan 16 20:45:42 10.71.57.0 u110789931 [10.71.57.0|get|1|1364|0|0|0|2f6b79656c616b616e2f6170692f616363657074496e766974652e706870|]
+Jan 16 20:45:42 10.71.57.0 u110789931 [10.71.57.0|get|1|1837|0|0|0|2f6b79656c616b616e2f6170692f6c6f67696e2e706870|]
+Jan 16 20:45:42 10.71.57.0 u110789931 open "/kyelakan/api/leaveTeam.php" flags READ mode 0666
+Jan 16 20:45:42 10.71.57.0 u110789931 open "/kyelakan/api/joinTeam.php" flags READ mode 0666
+Jan 16 20:45:42 10.71.57.0 u110789931 close "/kyelakan/api/joinTeam.php" bytes read 754 written 0
+Jan 16 20:45:42 10.71.57.0 u110789931 [10.71.57.0|get|0|754|0|0|0|2f6b79656c616b616e2f6170692f6a6f696e5465616d2e706870|]
+Jan 16 20:45:42 10.71.57.0 u110789931 close "/kyelakan/api/leaveTeam.php" bytes read 737 written 0
+Jan 16 20:45:42 10.71.57.0 u110789931 [10.71.57.0|get|0|737|0|0|0|2f6b79656c616b616e2f6170692f6c656176655465616d2e706870|]
+Jan 16 20:45:42 10.71.57.0 u110789931 open "/kyelakan/api/index.php" flags READ mode 0666
+Jan 16 20:45:42 10.71.57.0 u110789931 open "/logs/access.log.01.6" flags READ mode 0666
+Jan 16 20:45:42 10.71.57.0 u110789931 close "/kyelakan/api/index.php" bytes read 70 written 0
+Jan 16 20:45:42 10.71.57.0 u110789931 [10.71.57.0|get|0|70|0|0|0|2f6b79656c616b616e2f6170692f696e6465782e706870|]
+Jan 16 20:45:42 10.71.57.0 u110789931 close "/logs/access.log.01.6" bytes read 36596 written 0
+Jan 16 20:45:42 10.71.57.0 u110789931 [10.71.57.0|get|0|36596|0|0|0|2f6c6f67732f6163636573732e6c6f672e30312e36|]
+Jan 16 20:45:42 10.71.57.0 u110789931 open "/logs/access.log.52.7" flags READ mode 0666
+Jan 16 20:45:42 10.71.57.0 u110789931 open "/logs/access.log.03.1" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.03.1" bytes read 24720 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|1|24720|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e31|]
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.52.7" bytes read 13157 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|1|13157|0|0|0|2f6c6f67732f6163636573732e6c6f672e35322e37|]
+Jan 16 20:45:43 10.71.57.0 u110789931 open "/logs/access.log.02.2" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 open "/logs/access.log.01.3" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.02.2" bytes read 37537 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|0|37537|0|0|0|2f6c6f67732f6163636573732e6c6f672e30322e32|]
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.01.3" bytes read 38935 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|0|38935|0|0|0|2f6c6f67732f6163636573732e6c6f672e30312e33|]
+Jan 16 20:45:43 10.71.57.0 u110789931 open "/logs/access.log.52.4" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 open "/logs/access.log.01.2" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.01.2" bytes read 31012 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|0|31012|0|0|0|2f6c6f67732f6163636573732e6c6f672e30312e32|]
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.52.4" bytes read 48659 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|0|48659|0|0|0|2f6c6f67732f6163636573732e6c6f672e35322e34|]
+Jan 16 20:45:43 10.71.57.0 u110789931 open "/logs/access.log.51.2" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 open "/logs/access.log.51.6" flags READ mode 0666
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.51.6" bytes read 17428 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|0|17428|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e36|]
+Jan 16 20:45:43 10.71.57.0 u110789931 close "/logs/access.log.51.2" bytes read 64686 written 0
+Jan 16 20:45:43 10.71.57.0 u110789931 [10.71.57.0|get|0|64686|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e32|]
+Jan 16 20:45:44 10.71.57.0 u110789931 open "/logs/access.log.50.5" flags READ mode 0666
+Jan 16 20:45:44 10.71.57.0 u110789931 open "/logs/access.log.49.5" flags READ mode 0666
+Jan 16 20:45:44 10.71.57.0 u110789931 close "/logs/access.log.49.5" bytes read 35916 written 0
+Jan 16 20:45:44 10.71.57.0 u110789931 close "/logs/access.log.50.5" bytes read 28002 written 0
+Jan 16 20:45:44 10.71.57.0 u110789931 [10.71.57.0|get|0|35916|0|0|0|2f6c6f67732f6163636573732e6c6f672e34392e35|]
+Jan 16 20:45:44 10.71.57.0 u110789931 [10.71.57.0|get|0|28002|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e35|]
+Jan 16 20:45:44 10.71.57.0 u110789931 open "/logs/access.log.49.2" flags READ mode 0666
+Jan 16 20:45:44 10.71.57.0 u110789931 open "/logs/sftp.log" flags READ mode 0666

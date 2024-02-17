@@ -1,0 +1,13 @@
+version: '2'
+services:
+  selme-webiste:
+    image: 'selme-webiste:latest'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
+    environment:
+      - NODE_ENV=production
+      - PORT=80
+    restart: always

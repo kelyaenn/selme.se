@@ -1,0 +1,165 @@
+.topMenu {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    z-index: 99;
+
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    -ms-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    -o-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+
+}
+
+.flags > img{
+    cursor: pointer;
+}
+
+.menuElems {
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.menuElem {
+    font-weight: 500;
+    font-size: 1.25em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    border-radius: 4px;
+    text-transform: uppercase;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.menuElem::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+
+  :hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.flags {
+    display: flex;
+    gap: 20px;
+
+    padding-left: 50px;
+}
+
+.flags>img {
+    width: 40px;
+}
+
+
+.hamburguer {
+    position: fixed;
+    width: 2em;
+    height: 2em;
+    right: 20px;
+    top: 20px;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .hamburguer:hover {
+    -webkit-animation: zoom 300ms ease-in;
+            animation: zoom 300ms ease-in;
+  }
+  
+  .lines {
+    background-color: black;
+    width: 100%;
+    height: 5px;
+    margin: 5px 0;
+    transition: all 450ms ease-in;
+  }
+  
+  .close-hamburguer .lines {
+    cursor: pointer;
+  }
+  .close-hamburguer .line-top {
+    transform: translateY(200%) rotate(45deg);
+  }
+  .close-hamburguer .line-mid {
+    opacity: 0;
+  }
+  .close-hamburguer .line-bottom {
+    transform: translateY(-200%) rotate(135deg);
+  }
+
+  .hamburguer{
+        display: none;
+  }
+
+@media only screen and (max-width: 768px) {
+    .hamburguer{
+        display: block;
+    }
+    .topMenu {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: all 0.3s ease-in;
+    }
+
+    .topMenu.active{
+        transform: translateY(0%);
+    }
+
+    .flags {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        flex-direction: column;
+    }
+
+    .menuElems {
+        flex-direction: column;
+    }
+
+    .menuElem{
+        font-size: 2em;
+    }
+
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+
+    .topMenu {
+        background-color: black;
+    }
+
+    .menuElem {
+        color: white;
+    }
+
+
+    .lines {
+        background-color: white;
+    }
+
+}
