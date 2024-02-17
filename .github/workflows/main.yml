@@ -15,7 +15,7 @@ on:
 
 jobs:
   build-and-push:
-    uses: Electric-Widget/reusable_workflows/.github/workflows/docker-build-and-push.yml@main
+    uses: ./docker-build-and-push.yml@main
     with:
       name: ${{ github.repository }}
     secrets: 
